@@ -7,9 +7,9 @@ export default function Home() {
                 <div className="flex flex-col sm:flex-row items-center sm:items-start gap-8 max-w-4xl">
                     {/* Face image */}
                     <img
-                        src="/path-to-your-image.jpg"
+                        src="/LinkedinProfile.jpg"
                         alt="Jayesh Tambe"
-                        className="w-32 h-32 rounded-full object-cover shadow-lg"
+                        className="w-40 rounded-full object-cover shadow-lg"
                     />
                     {/* Text content */}
                     <div className="flex flex-col gap-4 self-center text-center sm:text-left">
@@ -18,11 +18,14 @@ export default function Home() {
                 </div>
                 <div className="text-lg text-center sm:text-left max-w-2xl">
                     <p>
-                        I'm a seasoned Senior Software Engineer with 15 years of deep expertise across diverse sectors, including HealthTech, Banking, Logistics, and Education. My focus is on architecting and delivering high-performance, cloud-native microservices on platforms like AWS and Kubernetes.
+                        I'm an experienced Senior Software Engineer with 15 years of deep expertise across diverse business domains, including HealthTech, Banking, Logistics, and Education. My focus is on architecting and delivering high-performance, cloud-native microservices on platforms like AWS and Kubernetes.
                     </p>
                     <p className="mt-4">
                         I specialize in leading technical initiatives to drive performant code, enhance system scalability, and implement modern AI/ML solutions. I bring a track record of translating complex business requirements into robust, automated, and high-impact software that directly influences organizational performance.
                     </p>
+                </div>
+                <div className="w-full text-center sm:text-left">
+                    <h4 className="text-2xl font-bold">Technologies I've used</h4>
                 </div>
                 <TechnologiesCarousel />
                 <div className="flex gap-4 items-center flex-col sm:flex-row">

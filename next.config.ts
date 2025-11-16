@@ -9,6 +9,7 @@ const nextConfig: NextConfig = {
           "upload.wikimedia.org", // PostgreSQL logo
           "dspy.ai", // DSPy logo
           "1000logos.net", // Databricks
+          "en.wikipedia.org", // Sklearn logo
       ],
   },
 };
