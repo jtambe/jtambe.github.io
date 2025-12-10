@@ -10,6 +10,7 @@ const nextConfig: NextConfig = {
           "dspy.ai", // DSPy logo
           "1000logos.net", // Databricks
           "en.wikipedia.org", // Sklearn logo
+          "raw.githubusercontent.com", // Flask logo
       ],
   },
 };

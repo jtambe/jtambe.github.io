@@ -32,7 +32,8 @@ export default function TechnologiesCarousel() {
         <div 
             id="technologies" 
             ref={carouselRef}
-            className="flex overflow-x-auto gap-6 max-w-xs md:max-w-2xl justify-start items-center mb-6 scrollbar-hidden">
+            className="flex overflow-x-auto gap-6 max-w-xs md:max-w-2xl justify-start 
+                    items-center mb-6 scrollbar-hidden bg-white dark:bg-[darkorchid] p-6">
             <div className="pl-8"/>
             {/* Python */}
             <div className="flex flex-col items-center min-w-[100px]">
@@ -103,13 +104,13 @@ export default function TechnologiesCarousel() {
             {/* Flask */}
             <div className="flex flex-col shrink items-center min-w-[100px]">
                 <Image
-                    src="https://www.svgrepo.com/show/508915/flask.svg"
+                    src="https://raw.githubusercontent.com/pallets/flask/refs/heads/stable/docs/_static/flask-name.svg"
                     alt="Flask"
-                    width={64} // Specify width in pixels
-                    height={64} // Specify height in pixels
+                    width={80} // Specify width in pixels
+                    height={80} // Specify height in pixels
                     className="object-contain"
                 />
-                <span className="mt-2 text-sm font-medium">Flask</span>
+                <span className="pt-8 text-sm font-medium">Flask</span>
             </div>
             {/* Scikit-learn */}
             <div className="flex flex-col shrink items-center min-w-[100px]">

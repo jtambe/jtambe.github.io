@@ -69,7 +69,7 @@ export default function Home() {
                     href="https://github.com/jtambe"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="flex items-center gap-2 text-gray-800 hover:text-gray-600"
+                    className="flex items-center gap-2 text-gray-700 hover:text-gray-600"
                 >
                     {/* GitHub Icon */}
                     <svg
