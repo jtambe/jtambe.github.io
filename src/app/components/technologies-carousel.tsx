@@ -38,7 +38,7 @@ export default function TechnologiesCarousel() {
             {/* Python */}
             <div className="flex flex-col items-center min-w-[100px]">
                 <Image
-                    src="https://www.svgrepo.com/show/452091/python.svg"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
                     alt="Python"
                     width={64} // Specify width in pixels
                     height={64} // Specify height in pixels
@@ -49,7 +49,7 @@ export default function TechnologiesCarousel() {
             {/* PostgreSQL */}
             <div className="flex flex-col items-center min-w-[100px]">
                 <Image
-                    src="https://upload.wikimedia.org/wikipedia/commons/2/29/Postgresql_elephant.svg"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
                     alt="PostgreSQL"
                     width={64} // Specify width in pixels
                     height={64} // Specify height in pixels
@@ -71,7 +71,7 @@ export default function TechnologiesCarousel() {
             {/* FastAPI */}
             <div className="flex flex-col shrink items-center min-w-[100px]">
                 <Image
-                    src="https://www.svgrepo.com/show/330413/fastapi.svg"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/fastapi/fastapi-original.svg"
                     alt="FastAPI"
                     width={64} // Specify width in pixels
                     height={64} // Specify height in pixels
@@ -93,7 +93,7 @@ export default function TechnologiesCarousel() {
             {/* Next.js */}
             <div className="flex flex-col shrink items-center min-w-[100px]">
                 <Image
-                    src="https://www.svgrepo.com/show/306466/next-dot-js.svg"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg"
                     alt="Next.js"
                     width={64} // Specify width in pixels
                     height={64} // Specify height in pixels
@@ -104,7 +104,7 @@ export default function TechnologiesCarousel() {
             {/* Flask */}
             <div className="flex flex-col shrink items-center min-w-[100px]">
                 <Image
-                    src="https://raw.githubusercontent.com/pallets/flask/refs/heads/stable/docs/_static/flask-name.svg"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg"
                     alt="Flask"
                     width={80} // Specify width in pixels
                     height={80} // Specify height in pixels
@@ -115,7 +115,7 @@ export default function TechnologiesCarousel() {
             {/* Scikit-learn */}
             <div className="flex flex-col shrink items-center min-w-[100px]">
                 <Image
-                    src="https://upload.wikimedia.org/wikipedia/commons/0/05/Scikit_learn_logo_small.svg"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/scikitlearn/scikitlearn-original.svg"
                     alt="Scikit-learn"
                     width={64} // Specify width in pixels
                     height={64} // Specify height in pixels
@@ -126,7 +126,7 @@ export default function TechnologiesCarousel() {
             {/* React.js */}
             <div className="flex flex-col shrink items-center min-w-[100px]">
                 <Image
-                    src="https://www.svgrepo.com/show/452092/react.svg"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
                     alt="React.js"
                     width={64} // Specify width in pixels
                     height={64} // Specify height in pixels
@@ -137,7 +137,7 @@ export default function TechnologiesCarousel() {
             {/* AWS */}
             <div className="flex flex-col shrink items-center min-w-[100px]">
                 <Image
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Amazon_Web_Services_Logo.svg/1024px-Amazon_Web_Services_Logo.svg.png?20170912170050"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
                     alt="AWS"
                     width={64} // Specify width in pixels
                     height={64} // Specify height in pixels
@@ -148,7 +148,7 @@ export default function TechnologiesCarousel() {
             {/* .NET */}
             <div className="flex flex-col shrink items-center min-w-[100px]">
                 <Image
-                    src="https://www.svgrepo.com/show/473592/dotnet.svg"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/dot-net/dot-net-original.svg"
                     alt=".NET"
                     width={64} // Specify width in pixels
                     height={64} // Specify height in pixels
@@ -159,7 +159,7 @@ export default function TechnologiesCarousel() {
             {/* C# */}
             <div className="flex flex-col shrink items-center min-w-[100px]">
                 <Image
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Logo_C_sharp.svg/512px-Logo_C_sharp.svg.png?20221121173824"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
                     alt="C#"
                     width={64} // Specify width in pixels
                     height={64} // Specify height in pixels
@@ -170,7 +170,7 @@ export default function TechnologiesCarousel() {
             {/* MS Azure */}
             <div className="flex flex-col shrink items-center min-w-[100px]">
                 <Image
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Microsoft_Azure_Logo.svg/374px-Microsoft_Azure_Logo.svg.png?20210815110837"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/azure/azure-original.svg"
                     alt="MS Azure"
                     width={64} // Specify width in pixels
                     height={64} // Specify height in pixels
@@ -181,7 +181,7 @@ export default function TechnologiesCarousel() {
             {/* Kubernetes */}
             <div className="flex flex-col shrink items-center min-w-[100px]">
                 <Image
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Kubernetes_logo_without_workmark.svg/1234px-Kubernetes_logo_without_workmark.svg.png?20190926210707"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg"
                     alt="Kubernetes"
                     width={64} // Specify width in pixels
                     height={64} // Specify height in pixels
@@ -192,7 +192,7 @@ export default function TechnologiesCarousel() {
             {/* Docker */}
             <div className="flex flex-col shrink items-center min-w-[100px]">
                 <Image
-                    src="https://upload.wikimedia.org/wikipedia/commons/a/a7/Docker-svgrepo-com.svg"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
                     alt="Docker"
                     width={64} // Specify width in pixels
                     height={64} // Specify height in pixels
@@ -203,7 +203,7 @@ export default function TechnologiesCarousel() {
             {/* Grafana */}
             <div className="flex flex-col shrink items-center min-w-[100px]">
                 <Image
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Grafana_logo.svg/1175px-Grafana_logo.svg.png"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/grafana/grafana-original.svg"
                     alt="Grafana"
                     width={64} // Specify width in pixels
                     height={64} // Specify height in pixels
@@ -214,7 +214,7 @@ export default function TechnologiesCarousel() {
             {/* Datadog */}
             <div className="flex flex-col shrink items-center min-w-[100px]">
                 <Image
-                    src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7e/Datadog_logo.svg/1200px-Datadog_logo.svg.png"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/datadog/datadog-original.svg"
                     alt="Datadog"
                     width={64} // Specify width in pixels
                     height={64} // Specify height in pixels
