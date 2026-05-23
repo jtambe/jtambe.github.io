@@ -48,65 +48,255 @@ export const US_STATES = [
 ];
 
 export const STATE_SPECIFIC_ANSWERS: Record<string, StateData> = {
+    "Alabama": {
+        senators: ["Katie Britt", "Tommy Tuberville"],
+        governor: "Kay Ivey",
+        capital: "Montgomery"
+    },
+    "Alaska": {
+        senators: ["Dan Sullivan", "Lisa Murkowski"],
+        governor: "Mike Dunleavy",
+        capital: "Juneau"
+    },
+    "Arizona": {
+        senators: ["Mark Kelly", "Ruben Gallego"],
+        governor: "Katie Hobbs",
+        capital: "Phoenix"
+    },
+    "Arkansas": {
+        senators: ["John Boozman", "Tom Cotton"],
+        governor: "Sarah Huckabee Sanders",
+        capital: "Little Rock"
+    },
     "California": {
-        senators: ["Alex Padilla", "Laphonza Butler"],
+        senators: ["Adam Schiff", "Alex Padilla"],
         governor: "Gavin Newsom",
         capital: "Sacramento"
     },
-    "Texas": {
-        senators: ["John Cornyn", "Ted Cruz"],
-        governor: "Greg Abbott",
-        capital: "Austin"
+    "Colorado": {
+        senators: ["John Hickenlooper", "Michael Bennet"],
+        governor: "Jared Polis",
+        capital: "Denver"
+    },
+    "Connecticut": {
+        senators: ["Chris Murphy", "Richard Blumenthal"],
+        governor: "Ned Lamont",
+        capital: "Hartford"
+    },
+    "Delaware": {
+        senators: ["Chris Coons", "Lisa Blunt Rochester"],
+        governor: "Matt Meyer",
+        capital: "Dover"
     },
     "Florida": {
-        senators: ["Marco Rubio", "Rick Scott"],
+        senators: ["Rick Scott", "Unknown / Appointed Interim"],
         governor: "Ron DeSantis",
         capital: "Tallahassee"
-    },
-    "New York": {
-        senators: ["Chuck Schumer", "Kirsten Gillibrand"],
-        governor: "Kathy Hochul",
-        capital: "Albany"
-    },
-    "Pennsylvania": {
-        senators: ["Bob Casey Jr.", "John Fetterman"],
-        governor: "Josh Shapiro",
-        capital: "Harrisburg"
-    },
-    "Illinois": {
-        senators: ["Dick Durbin", "Tammy Duckworth"],
-        governor: "J.B. Pritzker",
-        capital: "Springfield"
-    },
-    "Ohio": {
-        senators: ["Sherrod Brown", "J.D. Vance"],
-        governor: "Mike DeWine",
-        capital: "Columbus"
     },
     "Georgia": {
         senators: ["Jon Ossoff", "Raphael Warnock"],
         governor: "Brian Kemp",
         capital: "Atlanta"
     },
+    "Hawaii": {
+        senators: ["Brian Schatz", "Mazie Hirono"],
+        governor: "Josh Green",
+        capital: "Honolulu"
+    },
+    "Idaho": {
+        senators: ["Jim Risch", "Mike Crapo"],
+        governor: "Brad Little",
+        capital: "Boise"
+    },
+    "Illinois": {
+        senators: ["Dick Durbin", "Tammy Duckworth"],
+        governor: "J.B. Pritzker",
+        capital: "Springfield"
+    },
+    "Indiana": {
+        senators: ["Jim Banks", "Todd Young"],
+        governor: "Mike Braun",
+        capital: "Indianapolis"
+    },
+    "Iowa": {
+        senators: ["Chuck Grassley", "Joni Ernst"],
+        governor: "Kim Reynolds",
+        capital: "Des Moines"
+    },
+    "Kansas": {
+        senators: ["Jerry Moran", "Roger Marshall"],
+        governor: "Laura Kelly",
+        capital: "Topeka"
+    },
+    "Kentucky": {
+        senators: ["Mitch McConnell", "Rand Paul"],
+        governor: "Andy Beshear",
+        capital: "Frankfort"
+    },
+    "Louisiana": {
+        senators: ["Bill Cassidy", "John Kennedy"],
+        governor: "Jeff Landry",
+        capital: "Baton Rouge"
+    },
+    "Maine": {
+        senators: ["Angus King", "Susan Collins"],
+        governor: "Janet Mills",
+        capital: "Augusta"
+    },
+    "Maryland": {
+        senators: ["Angela Alsobrooks", "Chris Van Hollen"],
+        governor: "Wes Moore",
+        capital: "Annanpolis"
+    },
+    "Massachusetts": {
+        senators: ["Ed Markey", "Elizabeth Warren"],
+        governor: "Maura Healey",
+        capital: "Boston"
+    },
     "Michigan": {
         senators: ["Debbie Stabenow", "Gary Peters"],
         governor: "Gretchen Whitmer",
         capital: "Lansing"
     },
+    "Minnesota": {
+        senators: ["Amy Klobuchar", "Tina Smith"],
+        governor: "Tim Walz",
+        capital: "St. Paul"
+    },
+    "Mississippi": {
+        senators: ["Cindy Hyde-Smith", "Roger Wicker"],
+        governor: "Tate Reeves",
+        capital: "Jackson"
+    },
+    "Missouri": {
+        senators: ["Eric Schmitt", "Josh Hawley"],
+        governor: "Mike Kehoe",
+        capital: "Jefferson City"
+    },
+    "Montana": {
+        senators: ["Jon Tester", "Steve Daines"],
+        governor: "Greg Gianforte",
+        capital: "Helena"
+    },
+    "Nebraska": {
+        senators: ["Deb Fischer", "Pete Ricketts"],
+        governor: "Jim Pillen",
+        capital: "Lincoln"
+    },
+    "Nevada": {
+        senators: ["Catherine Cortez Masto", "Jacky Rosen"],
+        governor: "Joe Lombardo",
+        capital: "Carson City"
+    },
+    "New Hampshire": {
+        senators: ["Jeanne Shaheen", "Maggie Hassan"],
+        governor: "Kelly Ayotte",
+        capital: "Concord"
+    },
+    "New Jersey": {
+        senators: ["Cory Booker", "George Helmy"],
+        governor: "Mikie Sherrill",
+        capital: "Trenton"
+    },
+    "New Mexico": {
+        senators: ["Martin Heinrich", "Ben Ray Luján"],
+        governor: "Michelle Lujan Grisham",
+        capital: "Santa Fe"
+    },
+    "New York": {
+        senators: ["Chuck Schumer", "Kirsten Gillibrand"],
+        governor: "Kathy Hochul",
+        capital: "Albany"
+    },
     "North Carolina": {
-        senators: ["Thom Tillis", "Ted Budd"],
-        governor: "Roy Cooper",
+        senators: ["Ted Budd", "Thom Tillis"],
+        governor: "Josh Stein",
         capital: "Raleigh"
     },
-    "Arizona": {
-        senators: ["Mark Kelly", "Kyrsten Sinema"],
-        governor: "Katie Hobbs",
-        capital: "Phoenix"
+    "North Dakota": {
+        senators: ["John Hoeven", "Kevin Cramer"],
+        governor: "Kelly Armstrong",
+        capital: "Bismarck"
     },
-    "Massachusetts": {
-        senators: ["Elizabeth Warren", "Ed Markey"],
-        governor: "Maura Healey",
-        capital: "Boston"
+    "Ohio": {
+        senators: ["Sherrod Brown", "Unknown / Appointed Interim"],
+        governor: "Mike DeWine",
+        capital: "Columbus"
+    },
+    "Oklahoma": {
+        senators: ["Alan Armstrong", "James Lankford"],
+        governor: "Kevin Stitt",
+        capital: "Oklahoma City"
+    },
+    "Oregon": {
+        senators: ["Jeff Merkley", "Ron Wyden"],
+        governor: "Tina Kotek",
+        capital: "Salem"
+    },
+    "Pennsylvania": {
+        senators: ["Bob Casey Jr.", "John Fetterman"],
+        governor: "Josh Shapiro",
+        capital: "Harrisburg"
+    },
+    "Rhode Island": {
+        senators: ["Jack Reed", "Sheldon Whitehouse"],
+        governor: "Dan McKee",
+        capital: "Providence"
+    },
+    "South Carolina": {
+        senators: ["Lindsey Graham", "Tim Scott"],
+        governor: "Henry McMaster",
+        capital: "Columbia"
+    },
+    "South Dakota": {
+        senators: ["John Thune", "Mike Rounds"],
+        governor: "Larry Rhoden",
+        capital: "Pierre"
+    },
+    "Tennessee": {
+        senators: ["Marsha Blackburn", "Bill Hagerty"],
+        governor: "Bill Lee",
+        capital: "Nashville"
+    },
+    "Texas": {
+        senators: ["John Cornyn", "Ted Cruz"],
+        governor: "Greg Abbott",
+        capital: "Austin"
+    },
+    "Utah": {
+        senators: ["Mike Lee", "Mitt Romney"],
+        governor: "Spencer Cox",
+        capital: "Salt Lake City"
+    },
+    "Vermont": {
+        senators: ["Bernie Sanders", "Peter Welch"],
+        governor: "Phil Scott",
+        capital: "Montpelier"
+    },
+    "Virginia": {
+        senators: ["Mark Warner", "Tim Kaine"],
+        governor: "Abigail Spanberger",
+        capital: "Richmond"
+    },
+    "Washington": {
+        senators: ["Maria Cantwell", "Patty Murray"],
+        governor: "Bob Ferguson",
+        capital: "Olympia"
+    },
+    "West Virginia": {
+        senators: ["Jim Justice", "Shelley Moore Capito"],
+        governor: "Patrick Morrisey",
+        capital: "Charleston"
+    },
+    "Wisconsin": {
+        senators: ["Ron Johnson", "Tammy Baldwin"],
+        governor: "Tony Evers",
+        capital: "Madison"
+    },
+    "Wyoming": {
+        senators: ["John Barrasso", "Cynthia Lummis"],
+        governor: "Mark Gordon",
+        capital: "Cheyenne"
     }
 };
 
