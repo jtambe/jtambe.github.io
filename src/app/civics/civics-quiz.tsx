@@ -409,6 +409,19 @@ export default function CivicsQuiz() {
                                     </li>
                                 ))}
                             </ul>
+                            {current.referenceNote ? (
+                                <p className="mt-4 rounded-lg border border-sky-200 bg-sky-50 p-3 text-sm text-sky-900">
+                                    Note: {current.referenceNote.text}{" "}
+                                    <a
+                                        href={current.referenceNote.url}
+                                        target="_blank"
+                                        rel="noopener noreferrer"
+                                        className="font-semibold underline decoration-sky-600 underline-offset-2 hover:text-sky-700"
+                                    >
+                                        {current.referenceNote.url}
+                                    </a>
+                                </p>
+                            ) : null}
                         </div>
                     ) : null}
 

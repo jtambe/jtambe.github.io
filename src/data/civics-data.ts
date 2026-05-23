@@ -418,8 +418,14 @@ export const CIVICS_QUESTIONS: CivicsQuestion[] = [
         id: 30,
         question: "What is the name of the Speaker of the House of Representatives now?",
         answers: [
-            "Visit uscis.gov/citizenship/testupdates for the name of the Speaker of the House of Representatives."
+            "Mike Johnson",
+            "Johnson",
+            "James Michael Johnson (birth name)"
         ],
+        referenceNote: {
+            text: "For the latest official updates, visit USCIS test updates.",
+            url: "https://www.uscis.gov/citizenship/testupdates"
+        },
         section: "American Government",
         subsection: "System of Government",
         isFor65Plus: true
@@ -499,8 +505,14 @@ export const CIVICS_QUESTIONS: CivicsQuestion[] = [
         id: 38,
         question: "What is the name of the President of the United States now?",
         answers: [
-            "Visit uscis.gov/citizenship/testupdates for the name of the President of the United States."
+            "Donald J. Trump",
+            "Donald Trump",
+            "Trump"
         ],
+        referenceNote: {
+            text: "For the latest official updates, visit USCIS test updates.",
+            url: "https://www.uscis.gov/citizenship/testupdates"
+        },
         section: "American Government",
         subsection: "System of Government",
         isFor65Plus: true
@@ -509,8 +521,13 @@ export const CIVICS_QUESTIONS: CivicsQuestion[] = [
         id: 39,
         question: "What is the name of the Vice President of the United States now?",
         answers: [
-            "Visit uscis.gov/citizenship/testupdates for the name of the Vice President of the United States."
+            "JD Vance",
+            "Vance"
         ],
+        referenceNote: {
+            text: "For the latest official updates, visit USCIS test updates.",
+            url: "https://www.uscis.gov/citizenship/testupdates"
+        },
         section: "American Government",
         subsection: "System of Government",
         isFor65Plus: true
@@ -710,8 +727,14 @@ export const CIVICS_QUESTIONS: CivicsQuestion[] = [
         id: 57,
         question: "Who is the Chief Justice of the United States now?",
         answers: [
-            "Visit uscis.gov/citizenship/testupdates for the name of the Chief Justice of the United States."
+            "John Roberts",
+            "John G. Roberts, Jr.",
+            "Roberts"
         ],
+        referenceNote: {
+            text: "For the latest official updates, visit USCIS test updates.",
+            url: "https://www.uscis.gov/citizenship/testupdates"
+        },
         section: "American Government",
         subsection: "System of Government"
     },

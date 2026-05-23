@@ -235,6 +235,19 @@ export default function AllQuestionsPage() {
                                                                                             </li>
                                                                                         ))}
                                                                                     </ul>
+                                                                                    {q.referenceNote ? (
+                                                                                        <p className="mt-3 rounded-lg border border-sky-200 bg-sky-50 p-2 text-xs text-sky-900">
+                                                                                            Note: {q.referenceNote.text}{" "}
+                                                                                            <a
+                                                                                                href={q.referenceNote.url}
+                                                                                                target="_blank"
+                                                                                                rel="noopener noreferrer"
+                                                                                                className="font-semibold underline decoration-sky-600 underline-offset-2 hover:text-sky-700"
+                                                                                            >
+                                                                                                {q.referenceNote.url}
+                                                                                            </a>
+                                                                                        </p>
+                                                                                    ) : null}
                                                                                 </div>
                                                                             )}
                                                                         </div>

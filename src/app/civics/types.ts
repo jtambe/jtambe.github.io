@@ -20,6 +20,10 @@ export interface CivicsQuestion {
     id: number;
     question: string;
     answers: string[];
+    referenceNote?: {
+        text: string;
+        url: string;
+    };
     section: MainSection;
     subsection: SubSection;
     isStateSpecific?: boolean;
