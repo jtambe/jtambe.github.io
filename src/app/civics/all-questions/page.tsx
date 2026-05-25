@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useState, useMemo } from "react";
 import type { CivicsSection, MainSection, SubSection } from "../types";
 import { CIVICS_QUESTIONS, SECTION_OPTIONS, SUBSECTION_MAP, US_STATES } from "../../../data/civics-data";
@@ -255,14 +256,14 @@ export default function AllQuestionsPage() {
                                                                                                                         return (
                                                                                                                             <p key={idx}>
                                                                                                                                 ℹ️ {meta.replace('__META_INFO__', '')}{' '}
-                                                                                                                                <a
+                                                                                                                                <Link
                                                                                                                                     href={url}
                                                                                                                                     target="_blank"
                                                                                                                                     rel="noopener noreferrer"
                                                                                                                                     className="font-semibold text-amber-900 underline decoration-amber-600 underline-offset-2 hover:text-amber-800"
                                                                                                                                 >
                                                                                                                                     {url}
-                                                                                                                                </a>
+                                                                                                                                </Link>
                                                                                                                             </p>
                                                                                                                         );
                                                                                                                     }
@@ -282,14 +283,14 @@ export default function AllQuestionsPage() {
                                                                                                                     const url = meta.replace('__META_LINK__', '');
                                                                                                                     return (
                                                                                                                         <p key={idx}>
-                                                                                                                            <a
+                                                                                                                            <Link
                                                                                                                                 href={url}
                                                                                                                                 target="_blank"
                                                                                                                                 rel="noopener noreferrer"
                                                                                                                                 className="font-semibold text-amber-900 underline decoration-amber-600 underline-offset-2 hover:text-amber-800"
                                                                                                                             >
                                                                                                                                 {url}
-                                                                                                                            </a>
+                                                                                                                            </Link>
                                                                                                                         </p>
                                                                                                                     );
                                                                                                                 } else if (meta.startsWith('__META_DATE__')) {
@@ -326,14 +327,14 @@ export default function AllQuestionsPage() {
                                                                                     {q.referenceNote ? (
                                                                                         <p className="mt-3 rounded-lg border border-sky-200 bg-sky-50 p-2 text-xs text-sky-900">
                                                                                             Note: {q.referenceNote.text}{" "}
-                                                                                            <a
+                                                                                            <Link
                                                                                                 href={q.referenceNote.url}
                                                                                                 target="_blank"
                                                                                                 rel="noopener noreferrer"
                                                                                                 className="font-semibold underline decoration-sky-600 underline-offset-2 hover:text-sky-700"
                                                                                             >
                                                                                                 {q.referenceNote.url}
-                                                                                            </a>
+                                                                                            </Link>
                                                                                         </p>
                                                                                     ) : null}
                                                                                 </div>

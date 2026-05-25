@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 import type { CivicsQuestion, CivicsSection, MainSection, SubSection } from "./types";
 import { CIVICS_QUESTIONS, SECTION_OPTIONS, SUBSECTION_MAP, US_STATES } from "../../data/civics-data";
@@ -430,14 +431,14 @@ export default function CivicsQuiz() {
                                                                 return (
                                                                     <p key={idx}>
                                                                         ℹ️ {meta.replace('__META_INFO__', '')}{' '}
-                                                                        <a
+                                                                        <Link
                                                                             href={url}
                                                                             target="_blank"
                                                                             rel="noopener noreferrer"
                                                                             className="font-semibold text-amber-900 underline decoration-amber-600 underline-offset-2 hover:text-amber-800"
                                                                         >
                                                                             {url}
-                                                                        </a>
+                                                                        </Link>
                                                                     </p>
                                                                 );
                                                             }
@@ -457,14 +458,14 @@ export default function CivicsQuiz() {
                                                             const url = meta.replace('__META_LINK__', '');
                                                             return (
                                                                 <p key={idx}>
-                                                                    <a
+                                                                    <Link
                                                                         href={url}
                                                                         target="_blank"
                                                                         rel="noopener noreferrer"
                                                                         className="font-semibold text-amber-900 underline decoration-amber-600 underline-offset-2 hover:text-amber-800"
                                                                     >
                                                                         {url}
-                                                                    </a>
+                                                                    </Link>
                                                                 </p>
                                                             );
                                                         } else if (meta.startsWith('__META_DATE__')) {
@@ -502,14 +503,14 @@ export default function CivicsQuiz() {
                             {current.referenceNote ? (
                                 <p className="mt-4 rounded-lg border border-sky-200 bg-sky-50 p-3 text-sm text-sky-900">
                                     Note: {current.referenceNote.text}{" "}
-                                    <a
+                                    <Link
                                         href={current.referenceNote.url}
                                         target="_blank"
                                         rel="noopener noreferrer"
                                         className="font-semibold underline decoration-sky-600 underline-offset-2 hover:text-sky-700"
                                     >
                                         {current.referenceNote.url}
-                                    </a>
+                                    </Link>
                                 </p>
                             ) : null}
                         </div>
