@@ -1,0 +1,2820 @@
+{
+  "lastUpdated": "2026-05-25T06:37:06.178Z",
+  "mostRecentCongressUpdate": "2026-05-21T15:05:48Z",
+  "states": {
+    "Alabama": {
+      "senators": [
+        {
+          "name": "Tuberville, Tommy",
+          "party": "Republican"
+        },
+        {
+          "name": "Britt, Katie Boyd",
+          "party": "Republican"
+        }
+      ],
+      "representatives": [
+        {
+          "name": "Moore, Barry",
+          "party": "Republican",
+          "district": 1
+        },
+        {
+          "name": "Figures, Shomari",
+          "party": "Democratic",
+          "district": 2
+        },
+        {
+          "name": "Rogers, Mike D.",
+          "party": "Republican",
+          "district": 3
+        },
+        {
+          "name": "Aderholt, Robert B.",
+          "party": "Republican",
+          "district": 4
+        },
+        {
+          "name": "Strong, Dale W.",
+          "party": "Republican",
+          "district": 5
+        },
+        {
+          "name": "Palmer, Gary J.",
+          "party": "Republican",
+          "district": 6
+        },
+        {
+          "name": "Sewell, Terri A.",
+          "party": "Democratic",
+          "district": 7
+        }
+      ]
+    },
+    "Alaska": {
+      "senators": [
+        {
+          "name": "Sullivan, Dan",
+          "party": "Republican"
+        },
+        {
+          "name": "Murkowski, Lisa",
+          "party": "Republican"
+        }
+      ],
+      "representatives": []
+    },
+    "Arizona": {
+      "senators": [
+        {
+          "name": "Kelly, Mark",
+          "party": "Democratic"
+        },
+        {
+          "name": "Gallego, Ruben",
+          "party": "Democratic"
+        }
+      ],
+      "representatives": [
+        {
+          "name": "Schweikert, David",
+          "party": "Republican",
+          "district": 1
+        },
+        {
+          "name": "Crane, Elijah",
+          "party": "Republican",
+          "district": 2
+        },
+        {
+          "name": "Ansari, Yassamin",
+          "party": "Democratic",
+          "district": 3
+        },
+        {
+          "name": "Stanton, Greg",
+          "party": "Democratic",
+          "district": 4
+        },
+        {
+          "name": "Biggs, Andy",
+          "party": "Republican",
+          "district": 5
+        },
+        {
+          "name": "Ciscomani, Juan",
+          "party": "Republican",
+          "district": 6
+        },
+        {
+          "name": "Grijalva, Adelita S.",
+          "party": "Democratic",
+          "district": 7
+        },
+        {
+          "name": "Hamadeh, Abraham J.",
+          "party": "Republican",
+          "district": 8
+        },
+        {
+          "name": "Gosar, Paul A.",
+          "party": "Republican",
+          "district": 9
+        }
+      ]
+    },
+    "Arkansas": {
+      "senators": [
+        {
+          "name": "Cotton, Tom",
+          "party": "Republican"
+        },
+        {
+          "name": "Boozman, John",
+          "party": "Republican"
+        }
+      ],
+      "representatives": [
+        {
+          "name": "Crawford, Eric A. \"Rick\"",
+          "party": "Republican",
+          "district": 1
+        },
+        {
+          "name": "Hill, J. French",
+          "party": "Republican",
+          "district": 2
+        },
+        {
+          "name": "Womack, Steve",
+          "party": "Republican",
+          "district": 3
+        },
+        {
+          "name": "Westerman, Bruce",
+          "party": "Republican",
+          "district": 4
+        }
+      ]
+    },
+    "California": {
+      "senators": [
+        {
+          "name": "Schiff, Adam B.",
+          "party": "Democratic"
+        },
+        {
+          "name": "Padilla, Alex",
+          "party": "Democratic"
+        }
+      ],
+      "representatives": [
+        {
+          "name": "Huffman, Jared",
+          "party": "Democratic",
+          "district": 2
+        },
+        {
+          "name": "Kiley, Kevin",
+          "party": "Independent",
+          "district": 3
+        },
+        {
+          "name": "Thompson, Mike",
+          "party": "Democratic",
+          "district": 4
+        },
+        {
+          "name": "McClintock, Tom",
+          "party": "Republican",
+          "district": 5
+        },
+        {
+          "name": "Bera, Ami",
+          "party": "Democratic",
+          "district": 6
+        },
+        {
+          "name": "Matsui, Doris O.",
+          "party": "Democratic",
+          "district": 7
+        },
+        {
+          "name": "Garamendi, John",
+          "party": "Democratic",
+          "district": 8
+        },
+        {
+          "name": "Harder, Josh",
+          "party": "Democratic",
+          "district": 9
+        },
+        {
+          "name": "DeSaulnier, Mark",
+          "party": "Democratic",
+          "district": 10
+        },
+        {
+          "name": "Pelosi, Nancy",
+          "party": "Democratic",
+          "district": 11
+        },
+        {
+          "name": "Simon, Lateefah",
+          "party": "Democratic",
+          "district": 12
+        },
+        {
+          "name": "Gray, Adam",
+          "party": "Democratic",
+          "district": 13
+        },
+        {
+          "name": "Mullin, Kevin",
+          "party": "Democratic",
+          "district": 15
+        },
+        {
+          "name": "Liccardo, Sam T.",
+          "party": "Democratic",
+          "district": 16
+        },
+        {
+          "name": "Khanna, Ro",
+          "party": "Democratic",
+          "district": 17
+        },
+        {
+          "name": "Lofgren, Zoe",
+          "party": "Democratic",
+          "district": 18
+        },
+        {
+          "name": "Panetta, Jimmy",
+          "party": "Democratic",
+          "district": 19
+        },
+        {
+          "name": "Fong, Vince",
+          "party": "Republican",
+          "district": 20
+        },
+        {
+          "name": "Costa, Jim",
+          "party": "Democratic",
+          "district": 21
+        },
+        {
+          "name": "Valadao, David G.",
+          "party": "Republican",
+          "district": 22
+        },
+        {
+          "name": "Obernolte, Jay",
+          "party": "Republican",
+          "district": 23
+        },
+        {
+          "name": "Carbajal, Salud O.",
+          "party": "Democratic",
+          "district": 24
+        },
+        {
+          "name": "Ruiz, Raul",
+          "party": "Democratic",
+          "district": 25
+        },
+        {
+          "name": "Brownley, Julia",
+          "party": "Democratic",
+          "district": 26
+        },
+        {
+          "name": "Whitesides, George",
+          "party": "Democratic",
+          "district": 27
+        },
+        {
+          "name": "Chu, Judy",
+          "party": "Democratic",
+          "district": 28
+        },
+        {
+          "name": "Rivas, Luz M.",
+          "party": "Democratic",
+          "district": 29
+        },
+        {
+          "name": "Friedman, Laura",
+          "party": "Democratic",
+          "district": 30
+        },
+        {
+          "name": "Cisneros, Gilbert Ray",
+          "party": "Democratic",
+          "district": 31
+        },
+        {
+          "name": "Sherman, Brad",
+          "party": "Democratic",
+          "district": 32
+        },
+        {
+          "name": "Aguilar, Pete",
+          "party": "Democratic",
+          "district": 33
+        },
+        {
+          "name": "Gomez, Jimmy",
+          "party": "Democratic",
+          "district": 34
+        },
+        {
+          "name": "Torres, Norma J.",
+          "party": "Democratic",
+          "district": 35
+        },
+        {
+          "name": "Lieu, Ted",
+          "party": "Democratic",
+          "district": 36
+        },
+        {
+          "name": "Kamlager-Dove, Sydney",
+          "party": "Democratic",
+          "district": 37
+        },
+        {
+          "name": "Sánchez, Linda T.",
+          "party": "Democratic",
+          "district": 38
+        },
+        {
+          "name": "Takano, Mark",
+          "party": "Democratic",
+          "district": 39
+        },
+        {
+          "name": "Kim, Young",
+          "party": "Republican",
+          "district": 40
+        },
+        {
+          "name": "Calvert, Ken",
+          "party": "Republican",
+          "district": 41
+        },
+        {
+          "name": "Garcia, Robert",
+          "party": "Democratic",
+          "district": 42
+        },
+        {
+          "name": "Waters, Maxine",
+          "party": "Democratic",
+          "district": 43
+        },
+        {
+          "name": "Barragán, Nanette Diaz",
+          "party": "Democratic",
+          "district": 44
+        },
+        {
+          "name": "Tran, Derek",
+          "party": "Democratic",
+          "district": 45
+        },
+        {
+          "name": "Correa, J. Luis",
+          "party": "Democratic",
+          "district": 46
+        },
+        {
+          "name": "Min, Dave",
+          "party": "Democratic",
+          "district": 47
+        },
+        {
+          "name": "Issa, Darrell",
+          "party": "Republican",
+          "district": 48
+        },
+        {
+          "name": "Levin, Mike",
+          "party": "Democratic",
+          "district": 49
+        },
+        {
+          "name": "Peters, Scott H.",
+          "party": "Democratic",
+          "district": 50
+        },
+        {
+          "name": "Jacobs, Sara",
+          "party": "Democratic",
+          "district": 51
+        },
+        {
+          "name": "Vargas, Juan",
+          "party": "Democratic",
+          "district": 52
+        }
+      ]
+    },
+    "Colorado": {
+      "senators": [
+        {
+          "name": "Hickenlooper, John W.",
+          "party": "Democratic"
+        },
+        {
+          "name": "Bennet, Michael F.",
+          "party": "Democratic"
+        }
+      ],
+      "representatives": [
+        {
+          "name": "DeGette, Diana",
+          "party": "Democratic",
+          "district": 1
+        },
+        {
+          "name": "Neguse, Joe",
+          "party": "Democratic",
+          "district": 2
+        },
+        {
+          "name": "Hurd, Jeff",
+          "party": "Republican",
+          "district": 3
+        },
+        {
+          "name": "Boebert, Lauren",
+          "party": "Republican",
+          "district": 4
+        },
+        {
+          "name": "Crank, Jeff",
+          "party": "Republican",
+          "district": 5
+        },
+        {
+          "name": "Crow, Jason",
+          "party": "Democratic",
+          "district": 6
+        },
+        {
+          "name": "Pettersen, Brittany",
+          "party": "Democratic",
+          "district": 7
+        },
+        {
+          "name": "Evans, Gabe",
+          "party": "Republican",
+          "district": 8
+        }
+      ]
+    },
+    "Connecticut": {
+      "senators": [
+        {
+          "name": "Murphy, Christopher",
+          "party": "Democratic"
+        },
+        {
+          "name": "Blumenthal, Richard",
+          "party": "Democratic"
+        }
+      ],
+      "representatives": [
+        {
+          "name": "Larson, John B.",
+          "party": "Democratic",
+          "district": 1
+        },
+        {
+          "name": "Courtney, Joe",
+          "party": "Democratic",
+          "district": 2
+        },
+        {
+          "name": "DeLauro, Rosa L.",
+          "party": "Democratic",
+          "district": 3
+        },
+        {
+          "name": "Himes, James A.",
+          "party": "Democratic",
+          "district": 4
+        },
+        {
+          "name": "Hayes, Jahana",
+          "party": "Democratic",
+          "district": 5
+        }
+      ]
+    },
+    "Delaware": {
+      "senators": [
+        {
+          "name": "Coons, Christopher A.",
+          "party": "Democratic"
+        },
+        {
+          "name": "Blunt Rochester, Lisa",
+          "party": "Democratic"
+        }
+      ],
+      "representatives": []
+    },
+    "Florida": {
+      "senators": [
+        {
+          "name": "Scott, Rick",
+          "party": "Republican"
+        },
+        {
+          "name": "Moody, Ashley",
+          "party": "Republican"
+        }
+      ],
+      "representatives": [
+        {
+          "name": "Patronis, Jimmy",
+          "party": "Republican",
+          "district": 1
+        },
+        {
+          "name": "Dunn, Neal P.",
+          "party": "Republican",
+          "district": 2
+        },
+        {
+          "name": "Cammack, Kat",
+          "party": "Republican",
+          "district": 3
+        },
+        {
+          "name": "Bean, Aaron",
+          "party": "Republican",
+          "district": 4
+        },
+        {
+          "name": "Rutherford, John H.",
+          "party": "Republican",
+          "district": 5
+        },
+        {
+          "name": "Fine, Randy",
+          "party": "Republican",
+          "district": 6
+        },
+        {
+          "name": "Mills, Cory",
+          "party": "Republican",
+          "district": 7
+        },
+        {
+          "name": "Haridopolos, Mike",
+          "party": "Republican",
+          "district": 8
+        },
+        {
+          "name": "Soto, Darren",
+          "party": "Democratic",
+          "district": 9
+        },
+        {
+          "name": "Frost, Maxwell",
+          "party": "Democratic",
+          "district": 10
+        },
+        {
+          "name": "Webster, Daniel",
+          "party": "Republican",
+          "district": 11
+        },
+        {
+          "name": "Bilirakis, Gus M.",
+          "party": "Republican",
+          "district": 12
+        },
+        {
+          "name": "Luna, Anna Paulina",
+          "party": "Republican",
+          "district": 13
+        },
+        {
+          "name": "Castor, Kathy",
+          "party": "Democratic",
+          "district": 14
+        },
+        {
+          "name": "Lee, Laurel M.",
+          "party": "Republican",
+          "district": 15
+        },
+        {
+          "name": "Buchanan, Vern",
+          "party": "Republican",
+          "district": 16
+        },
+        {
+          "name": "Steube, W. Gregory",
+          "party": "Republican",
+          "district": 17
+        },
+        {
+          "name": "Franklin, Scott",
+          "party": "Republican",
+          "district": 18
+        },
+        {
+          "name": "Donalds, Byron",
+          "party": "Republican",
+          "district": 19
+        },
+        {
+          "name": "Mast, Brian J.",
+          "party": "Republican",
+          "district": 21
+        },
+        {
+          "name": "Frankel, Lois",
+          "party": "Democratic",
+          "district": 22
+        },
+        {
+          "name": "Moskowitz, Jared",
+          "party": "Democratic",
+          "district": 23
+        },
+        {
+          "name": "Wilson, Frederica S.",
+          "party": "Democratic",
+          "district": 24
+        },
+        {
+          "name": "Wasserman Schultz, Debbie",
+          "party": "Democratic",
+          "district": 25
+        },
+        {
+          "name": "Diaz-Balart, Mario",
+          "party": "Republican",
+          "district": 26
+        },
+        {
+          "name": "Salazar, Maria Elvira",
+          "party": "Republican",
+          "district": 27
+        },
+        {
+          "name": "Gimenez, Carlos A.",
+          "party": "Republican",
+          "district": 28
+        }
+      ]
+    },
+    "Georgia": {
+      "senators": [
+        {
+          "name": "Warnock, Raphael G.",
+          "party": "Democratic"
+        },
+        {
+          "name": "Ossoff, Jon",
+          "party": "Democratic"
+        }
+      ],
+      "representatives": [
+        {
+          "name": "Carter, Earl L. \"Buddy\"",
+          "party": "Republican",
+          "district": 1
+        },
+        {
+          "name": "Bishop, Sanford D.",
+          "party": "Democratic",
+          "district": 2
+        },
+        {
+          "name": "Jack, Brian",
+          "party": "Republican",
+          "district": 3
+        },
+        {
+          "name": "Johnson, Henry C. \"Hank\"",
+          "party": "Democratic",
+          "district": 4
+        },
+        {
+          "name": "Williams, Nikema",
+          "party": "Democratic",
+          "district": 5
+        },
+        {
+          "name": "McBath, Lucy",
+          "party": "Democratic",
+          "district": 6
+        },
+        {
+          "name": "McCormick, Richard",
+          "party": "Republican",
+          "district": 7
+        },
+        {
+          "name": "Scott, Austin",
+          "party": "Republican",
+          "district": 8
+        },
+        {
+          "name": "Clyde, Andrew S.",
+          "party": "Republican",
+          "district": 9
+        },
+        {
+          "name": "Collins, Mike",
+          "party": "Republican",
+          "district": 10
+        },
+        {
+          "name": "Loudermilk, Barry",
+          "party": "Republican",
+          "district": 11
+        },
+        {
+          "name": "Allen, Rick W.",
+          "party": "Republican",
+          "district": 12
+        },
+        {
+          "name": "Fuller, Clay",
+          "party": "Republican",
+          "district": 14
+        }
+      ]
+    },
+    "Hawaii": {
+      "senators": [
+        {
+          "name": "Schatz, Brian",
+          "party": "Democratic"
+        },
+        {
+          "name": "Hirono, Mazie K.",
+          "party": "Democratic"
+        }
+      ],
+      "representatives": [
+        {
+          "name": "Case, Ed",
+          "party": "Democratic",
+          "district": 1
+        },
+        {
+          "name": "Tokuda, Jill N.",
+          "party": "Democratic",
+          "district": 2
+        }
+      ]
+    },
+    "Idaho": {
+      "senators": [
+        {
+          "name": "Risch, James E.",
+          "party": "Republican"
+        },
+        {
+          "name": "Crapo, Mike",
+          "party": "Republican"
+        }
+      ],
+      "representatives": [
+        {
+          "name": "Fulcher, Russ",
+          "party": "Republican",
+          "district": 1
+        },
+        {
+          "name": "Simpson, Michael K.",
+          "party": "Republican",
+          "district": 2
+        }
+      ]
+    },
+    "Illinois": {
+      "senators": [
+        {
+          "name": "Durbin, Richard J.",
+          "party": "Democratic"
+        },
+        {
+          "name": "Duckworth, Tammy",
+          "party": "Democratic"
+        }
+      ],
+      "representatives": [
+        {
+          "name": "Jackson, Jonathan L.",
+          "party": "Democratic",
+          "district": 1
+        },
+        {
+          "name": "Kelly, Robin L.",
+          "party": "Democratic",
+          "district": 2
+        },
+        {
+          "name": "Ramirez, Delia C.",
+          "party": "Democratic",
+          "district": 3
+        },
+        {
+          "name": "García, Jesús G. \"Chuy\"",
+          "party": "Democratic",
+          "district": 4
+        },
+        {
+          "name": "Quigley, Mike",
+          "party": "Democratic",
+          "district": 5
+        },
+        {
+          "name": "Casten, Sean",
+          "party": "Democratic",
+          "district": 6
+        },
+        {
+          "name": "Davis, Danny K.",
+          "party": "Democratic",
+          "district": 7
+        },
+        {
+          "name": "Krishnamoorthi, Raja",
+          "party": "Democratic",
+          "district": 8
+        },
+        {
+          "name": "Schakowsky, Janice D.",
+          "party": "Democratic",
+          "district": 9
+        },
+        {
+          "name": "Schneider, Bradley Scott",
+          "party": "Democratic",
+          "district": 10
+        },
+        {
+          "name": "Foster, Bill",
+          "party": "Democratic",
+          "district": 11
+        },
+        {
+          "name": "Bost, Mike",
+          "party": "Republican",
+          "district": 12
+        },
+        {
+          "name": "Budzinski, Nikki",
+          "party": "Democratic",
+          "district": 13
+        },
+        {
+          "name": "Underwood, Lauren",
+          "party": "Democratic",
+          "district": 14
+        },
+        {
+          "name": "Miller, Mary E.",
+          "party": "Republican",
+          "district": 15
+        },
+        {
+          "name": "LaHood, Darin",
+          "party": "Republican",
+          "district": 16
+        },
+        {
+          "name": "Sorensen, Eric",
+          "party": "Democratic",
+          "district": 17
+        }
+      ]
+    },
+    "Indiana": {
+      "senators": [
+        {
+          "name": "Young, Todd",
+          "party": "Republican"
+        },
+        {
+          "name": "Banks, Jim",
+          "party": "Republican"
+        }
+      ],
+      "representatives": [
+        {
+          "name": "Mrvan, Frank J.",
+          "party": "Democratic",
+          "district": 1
+        },
+        {
+          "name": "Yakym, Rudy",
+          "party": "Republican",
+          "district": 2
+        },
+        {
+          "name": "Stutzman, Marlin A.",
+          "party": "Republican",
+          "district": 3
+        },
+        {
+          "name": "Baird, James R.",
+          "party": "Republican",
+          "district": 4
+        },
+        {
+          "name": "Spartz, Victoria",
+          "party": "Republican",
+          "district": 5
+        },
+        {
+          "name": "Shreve, Jefferson",
+          "party": "Republican",
+          "district": 6
+        },
+        {
+          "name": "Carson, André",
+          "party": "Democratic",
+          "district": 7
+        },
+        {
+          "name": "Messmer, Mark B.",
+          "party": "Republican",
+          "district": 8
+        },
+        {
+          "name": "Houchin, Erin",
+          "party": "Republican",
+          "district": 9
+        }
+      ]
+    },
+    "Iowa": {
+      "senators": [
+        {
+          "name": "Grassley, Chuck",
+          "party": "Republican"
+        },
+        {
+          "name": "Ernst, Joni",
+          "party": "Republican"
+        }
+      ],
+      "representatives": [
+        {
+          "name": "Miller-Meeks, Mariannette",
+          "party": "Republican",
+          "district": 1
+        },
+        {
+          "name": "Hinson, Ashley",
+          "party": "Republican",
+          "district": 2
+        },
+        {
+          "name": "Nunn, Zachary",
+          "party": "Republican",
+          "district": 3
+        },
+        {
+          "name": "Feenstra, Randy",
+          "party": "Republican",
+          "district": 4
+        }
+      ]
+    },
+    "Kansas": {
+      "senators": [
+        {
+          "name": "Moran, Jerry",
+          "party": "Republican"
+        },
+        {
+          "name": "Marshall, Roger",
+          "party": "Republican"
+        }
+      ],
+      "representatives": [
+        {
+          "name": "Mann, Tracey",
+          "party": "Republican",
+          "district": 1
+        },
+        {
+          "name": "Schmidt, Derek",
+          "party": "Republican",
+          "district": 2
+        },
+        {
+          "name": "Davids, Sharice",
+          "party": "Democratic",
+          "district": 3
+        },
+        {
+          "name": "Estes, Ron",
+          "party": "Republican",
+          "district": 4
+        }
+      ]
+    },
+    "Kentucky": {
+      "senators": [
+        {
+          "name": "Paul, Rand",
+          "party": "Republican"
+        },
+        {
+          "name": "McConnell, Mitch",
+          "party": "Republican"
+        }
+      ],
+      "representatives": [
+        {
+          "name": "Comer, James",
+          "party": "Republican",
+          "district": 1
+        },
+        {
+          "name": "Guthrie, Brett",
+          "party": "Republican",
+          "district": 2
+        },
+        {
+          "name": "McGarvey, Morgan",
+          "party": "Democratic",
+          "district": 3
+        },
+        {
+          "name": "Massie, Thomas",
+          "party": "Republican",
+          "district": 4
+        },
+        {
+          "name": "Rogers, Harold",
+          "party": "Republican",
+          "district": 5
+        },
+        {
+          "name": "Barr, Andy",
+          "party": "Republican",
+          "district": 6
+        }
+      ]
+    },
+    "Louisiana": {
+      "senators": [
+        {
+          "name": "Kennedy, John",
+          "party": "Republican"
+        },
+        {
+          "name": "Cassidy, Bill",
+          "party": "Republican"
+        }
+      ],
+      "representatives": [
+        {
+          "name": "Scalise, Steve",
+          "party": "Republican",
+          "district": 1
+        },
+        {
+          "name": "Carter, Troy A.",
+          "party": "Democratic",
+          "district": 2
+        },
+        {
+          "name": "Higgins, Clay",
+          "party": "Republican",
+          "district": 3
+        },
+        {
+          "name": "Johnson, Mike",
+          "party": "Republican",
+          "district": 4
+        },
+        {
+          "name": "Letlow, Julia",
+          "party": "Republican",
+          "district": 5
+        },
+        {
+          "name": "Fields, Cleo",
+          "party": "Democratic",
+          "district": 6
+        }
+      ]
+    },
+    "Maine": {
+      "senators": [
+        {
+          "name": "King, Angus S., Jr.",
+          "party": "Independent"
+        },
+        {
+          "name": "Collins, Susan M.",
+          "party": "Republican"
+        }
+      ],
+      "representatives": [
+        {
+          "name": "Pingree, Chellie",
+          "party": "Democratic",
+          "district": 1
+        },
+        {
+          "name": "Golden, Jared F.",
+          "party": "Democratic",
+          "district": 2
+        }
+      ]
+    },
+    "Maryland": {
+      "senators": [
+        {
+          "name": "Van Hollen, Chris",
+          "party": "Democratic"
+        },
+        {
+          "name": "Alsobrooks, Angela D.",
+          "party": "Democratic"
+        }
+      ],
+      "representatives": [
+        {
+          "name": "Harris, Andy",
+          "party": "Republican",
+          "district": 1
+        },
+        {
+          "name": "Olszewski, Johnny",
+          "party": "Democratic",
+          "district": 2
+        },
+        {
+          "name": "Elfreth, Sarah",
+          "party": "Democratic",
+          "district": 3
+        },
+        {
+          "name": "Ivey, Glenn",
+          "party": "Democratic",
+          "district": 4
+        },
+        {
+          "name": "Hoyer, Steny H.",
+          "party": "Democratic",
+          "district": 5
+        },
+        {
+          "name": "McClain Delaney, April",
+          "party": "Democratic",
+          "district": 6
+        },
+        {
+          "name": "Mfume, Kweisi",
+          "party": "Democratic",
+          "district": 7
+        },
+        {
+          "name": "Raskin, Jamie",
+          "party": "Democratic",
+          "district": 8
+        }
+      ]
+    },
+    "Massachusetts": {
+      "senators": [
+        {
+          "name": "Warren, Elizabeth",
+          "party": "Democratic"
+        },
+        {
+          "name": "Markey, Edward J.",
+          "party": "Democratic"
+        }
+      ],
+      "representatives": [
+        {
+          "name": "Neal, Richard E.",
+          "party": "Democratic",
+          "district": 1
+        },
+        {
+          "name": "McGovern, James P.",
+          "party": "Democratic",
+          "district": 2
+        },
+        {
+          "name": "Trahan, Lori",
+          "party": "Democratic",
+          "district": 3
+        },
+        {
+          "name": "Auchincloss, Jake",
+          "party": "Democratic",
+          "district": 4
+        },
+        {
+          "name": "Clark, Katherine M.",
+          "party": "Democratic",
+          "district": 5
+        },
+        {
+          "name": "Moulton, Seth",
+          "party": "Democratic",
+          "district": 6
+        },
+        {
+          "name": "Pressley, Ayanna",
+          "party": "Democratic",
+          "district": 7
+        },
+        {
+          "name": "Lynch, Stephen F.",
+          "party": "Democratic",
+          "district": 8
+        },
+        {
+          "name": "Keating, William R.",
+          "party": "Democratic",
+          "district": 9
+        }
+      ]
+    },
+    "Michigan": {
+      "senators": [
+        {
+          "name": "Slotkin, Elissa",
+          "party": "Democratic"
+        },
+        {
+          "name": "Peters, Gary C.",
+          "party": "Democratic"
+        }
+      ],
+      "representatives": [
+        {
+          "name": "Bergman, Jack",
+          "party": "Republican",
+          "district": 1
+        },
+        {
+          "name": "Moolenaar, John R.",
+          "party": "Republican",
+          "district": 2
+        },
+        {
+          "name": "Scholten, Hillary J.",
+          "party": "Democratic",
+          "district": 3
+        },
+        {
+          "name": "Huizenga, Bill",
+          "party": "Republican",
+          "district": 4
+        },
+        {
+          "name": "Walberg, Tim",
+          "party": "Republican",
+          "district": 5
+        },
+        {
+          "name": "Dingell, Debbie",
+          "party": "Democratic",
+          "district": 6
+        },
+        {
+          "name": "Barrett, Tom",
+          "party": "Republican",
+          "district": 7
+        },
+        {
+          "name": "McDonald Rivet, Kristen",
+          "party": "Democratic",
+          "district": 8
+        },
+        {
+          "name": "McClain, Lisa C.",
+          "party": "Republican",
+          "district": 9
+        },
+        {
+          "name": "James, John",
+          "party": "Republican",
+          "district": 10
+        },
+        {
+          "name": "Stevens, Haley M.",
+          "party": "Democratic",
+          "district": 11
+        },
+        {
+          "name": "Tlaib, Rashida",
+          "party": "Democratic",
+          "district": 12
+        },
+        {
+          "name": "Thanedar, Shri",
+          "party": "Democratic",
+          "district": 13
+        }
+      ]
+    },
+    "Minnesota": {
+      "senators": [
+        {
+          "name": "Smith, Tina",
+          "party": "Democratic"
+        },
+        {
+          "name": "Klobuchar, Amy",
+          "party": "Democratic"
+        }
+      ],
+      "representatives": [
+        {
+          "name": "Finstad, Brad",
+          "party": "Republican",
+          "district": 1
+        },
+        {
+          "name": "Craig, Angie",
+          "party": "Democratic",
+          "district": 2
+        },
+        {
+          "name": "Morrison, Kelly",
+          "party": "Democratic",
+          "district": 3
+        },
+        {
+          "name": "McCollum, Betty",
+          "party": "Democratic",
+          "district": 4
+        },
+        {
+          "name": "Omar, Ilhan",
+          "party": "Democratic",
+          "district": 5
+        },
+        {
+          "name": "Emmer, Tom",
+          "party": "Republican",
+          "district": 6
+        },
+        {
+          "name": "Fischbach, Michelle",
+          "party": "Republican",
+          "district": 7
+        },
+        {
+          "name": "Stauber, Pete",
+          "party": "Republican",
+          "district": 8
+        }
+      ]
+    },
+    "Mississippi": {
+      "senators": [
+        {
+          "name": "Wicker, Roger F.",
+          "party": "Republican"
+        },
+        {
+          "name": "Hyde-Smith, Cindy",
+          "party": "Republican"
+        }
+      ],
+      "representatives": [
+        {
+          "name": "Kelly, Trent",
+          "party": "Republican",
+          "district": 1
+        },
+        {
+          "name": "Thompson, Bennie G.",
+          "party": "Democratic",
+          "district": 2
+        },
+        {
+          "name": "Guest, Michael",
+          "party": "Republican",
+          "district": 3
+        },
+        {
+          "name": "Ezell, Mike",
+          "party": "Republican",
+          "district": 4
+        }
+      ]
+    },
+    "Missouri": {
+      "senators": [
+        {
+          "name": "Schmitt, Eric",
+          "party": "Republican"
+        },
+        {
+          "name": "Hawley, Josh",
+          "party": "Republican"
+        }
+      ],
+      "representatives": [
+        {
+          "name": "Bell, Wesley",
+          "party": "Democratic",
+          "district": 1
+        },
+        {
+          "name": "Wagner, Ann",
+          "party": "Republican",
+          "district": 2
+        },
+        {
+          "name": "Onder, Robert F.",
+          "party": "Republican",
+          "district": 3
+        },
+        {
+          "name": "Alford, Mark",
+          "party": "Republican",
+          "district": 4
+        },
+        {
+          "name": "Cleaver, Emanuel",
+          "party": "Democratic",
+          "district": 5
+        },
+        {
+          "name": "Graves, Sam",
+          "party": "Republican",
+          "district": 6
+        },
+        {
+          "name": "Burlison, Eric",
+          "party": "Republican",
+          "district": 7
+        },
+        {
+          "name": "Smith, Jason",
+          "party": "Republican",
+          "district": 8
+        }
+      ]
+    },
+    "Montana": {
+      "senators": [
+        {
+          "name": "Sheehy, Tim",
+          "party": "Republican"
+        },
+        {
+          "name": "Daines, Steve",
+          "party": "Republican"
+        }
+      ],
+      "representatives": [
+        {
+          "name": "Zinke, Ryan K.",
+          "party": "Republican",
+          "district": 1
+        },
+        {
+          "name": "Downing, Troy",
+          "party": "Republican",
+          "district": 2
+        }
+      ]
+    },
+    "Nebraska": {
+      "senators": [
+        {
+          "name": "Ricketts, Pete",
+          "party": "Republican"
+        },
+        {
+          "name": "Fischer, Deb",
+          "party": "Republican"
+        }
+      ],
+      "representatives": [
+        {
+          "name": "Flood, Mike",
+          "party": "Republican",
+          "district": 1
+        },
+        {
+          "name": "Bacon, Don",
+          "party": "Republican",
+          "district": 2
+        },
+        {
+          "name": "Smith, Adrian",
+          "party": "Republican",
+          "district": 3
+        }
+      ]
+    },
+    "Nevada": {
+      "senators": [
+        {
+          "name": "Rosen, Jacky",
+          "party": "Democratic"
+        },
+        {
+          "name": "Cortez Masto, Catherine",
+          "party": "Democratic"
+        }
+      ],
+      "representatives": [
+        {
+          "name": "Titus, Dina",
+          "party": "Democratic",
+          "district": 1
+        },
+        {
+          "name": "Amodei, Mark E.",
+          "party": "Republican",
+          "district": 2
+        },
+        {
+          "name": "Lee, Susie",
+          "party": "Democratic",
+          "district": 3
+        },
+        {
+          "name": "Horsford, Steven",
+          "party": "Democratic",
+          "district": 4
+        }
+      ]
+    },
+    "New Hampshire": {
+      "senators": [
+        {
+          "name": "Shaheen, Jeanne",
+          "party": "Democratic"
+        },
+        {
+          "name": "Hassan, Margaret Wood",
+          "party": "Democratic"
+        }
+      ],
+      "representatives": [
+        {
+          "name": "Pappas, Chris",
+          "party": "Democratic",
+          "district": 1
+        },
+        {
+          "name": "Goodlander, Maggie",
+          "party": "Democratic",
+          "district": 2
+        }
+      ]
+    },
+    "New Jersey": {
+      "senators": [
+        {
+          "name": "Booker, Cory A.",
+          "party": "Democratic"
+        },
+        {
+          "name": "Kim, Andy",
+          "party": "Democratic"
+        }
+      ],
+      "representatives": [
+        {
+          "name": "Norcross, Donald",
+          "party": "Democratic",
+          "district": 1
+        },
+        {
+          "name": "Van Drew, Jefferson",
+          "party": "Republican",
+          "district": 2
+        },
+        {
+          "name": "Conaway, Herbert C.",
+          "party": "Democratic",
+          "district": 3
+        },
+        {
+          "name": "Smith, Christopher H.",
+          "party": "Republican",
+          "district": 4
+        },
+        {
+          "name": "Gottheimer, Josh",
+          "party": "Democratic",
+          "district": 5
+        },
+        {
+          "name": "Pallone, Frank",
+          "party": "Democratic",
+          "district": 6
+        },
+        {
+          "name": "Kean, Thomas H.",
+          "party": "Republican",
+          "district": 7
+        },
+        {
+          "name": "Menendez, Robert",
+          "party": "Democratic",
+          "district": 8
+        },
+        {
+          "name": "Pou, Nellie",
+          "party": "Democratic",
+          "district": 9
+        },
+        {
+          "name": "McIver, LaMonica",
+          "party": "Democratic",
+          "district": 10
+        },
+        {
+          "name": "Mejia, Analilia",
+          "party": "Democratic",
+          "district": 11
+        },
+        {
+          "name": "Watson Coleman, Bonnie",
+          "party": "Democratic",
+          "district": 12
+        }
+      ]
+    },
+    "New Mexico": {
+      "senators": [
+        {
+          "name": "Luján, Ben Ray",
+          "party": "Democratic"
+        },
+        {
+          "name": "Heinrich, Martin",
+          "party": "Democratic"
+        }
+      ],
+      "representatives": [
+        {
+          "name": "Stansbury, Melanie A.",
+          "party": "Democratic",
+          "district": 1
+        },
+        {
+          "name": "Vasquez, Gabe",
+          "party": "Democratic",
+          "district": 2
+        },
+        {
+          "name": "Leger Fernandez, Teresa",
+          "party": "Democratic",
+          "district": 3
+        }
+      ]
+    },
+    "New York": {
+      "senators": [
+        {
+          "name": "Schumer, Charles E.",
+          "party": "Democratic"
+        },
+        {
+          "name": "Gillibrand, Kirsten E.",
+          "party": "Democratic"
+        }
+      ],
+      "representatives": [
+        {
+          "name": "LaLota, Nick",
+          "party": "Republican",
+          "district": 1
+        },
+        {
+          "name": "Garbarino, Andrew R.",
+          "party": "Republican",
+          "district": 2
+        },
+        {
+          "name": "Suozzi, Thomas R.",
+          "party": "Democratic",
+          "district": 3
+        },
+        {
+          "name": "Gillen, Laura",
+          "party": "Democratic",
+          "district": 4
+        },
+        {
+          "name": "Meeks, Gregory W.",
+          "party": "Democratic",
+          "district": 5
+        },
+        {
+          "name": "Meng, Grace",
+          "party": "Democratic",
+          "district": 6
+        },
+        {
+          "name": "Velázquez, Nydia M.",
+          "party": "Democratic",
+          "district": 7
+        },
+        {
+          "name": "Jeffries, Hakeem S.",
+          "party": "Democratic",
+          "district": 8
+        },
+        {
+          "name": "Clarke, Yvette D.",
+          "party": "Democratic",
+          "district": 9
+        },
+        {
+          "name": "Goldman, Daniel S.",
+          "party": "Democratic",
+          "district": 10
+        },
+        {
+          "name": "Malliotakis, Nicole",
+          "party": "Republican",
+          "district": 11
+        },
+        {
+          "name": "Nadler, Jerrold",
+          "party": "Democratic",
+          "district": 12
+        },
+        {
+          "name": "Espaillat, Adriano",
+          "party": "Democratic",
+          "district": 13
+        },
+        {
+          "name": "Ocasio-Cortez, Alexandria",
+          "party": "Democratic",
+          "district": 14
+        },
+        {
+          "name": "Torres, Ritchie",
+          "party": "Democratic",
+          "district": 15
+        },
+        {
+          "name": "Latimer, George",
+          "party": "Democratic",
+          "district": 16
+        },
+        {
+          "name": "Lawler, Michael",
+          "party": "Republican",
+          "district": 17
+        },
+        {
+          "name": "Ryan, Patrick",
+          "party": "Democratic",
+          "district": 18
+        },
+        {
+          "name": "Riley, Josh",
+          "party": "Democratic",
+          "district": 19
+        },
+        {
+          "name": "Tonko, Paul",
+          "party": "Democratic",
+          "district": 20
+        },
+        {
+          "name": "Stefanik, Elise M.",
+          "party": "Republican",
+          "district": 21
+        },
+        {
+          "name": "Mannion, John W.",
+          "party": "Democratic",
+          "district": 22
+        },
+        {
+          "name": "Langworthy, Nicholas A.",
+          "party": "Republican",
+          "district": 23
+        },
+        {
+          "name": "Tenney, Claudia",
+          "party": "Republican",
+          "district": 24
+        },
+        {
+          "name": "Morelle, Joseph D.",
+          "party": "Democratic",
+          "district": 25
+        },
+        {
+          "name": "Kennedy, Timothy M.",
+          "party": "Democratic",
+          "district": 26
+        }
+      ]
+    },
+    "North Carolina": {
+      "senators": [
+        {
+          "name": "Tillis, Thomas",
+          "party": "Republican"
+        },
+        {
+          "name": "Budd, Ted",
+          "party": "Republican"
+        }
+      ],
+      "representatives": [
+        {
+          "name": "Davis, Donald G.",
+          "party": "Democratic",
+          "district": 1
+        },
+        {
+          "name": "Ross, Deborah K.",
+          "party": "Democratic",
+          "district": 2
+        },
+        {
+          "name": "Murphy, Gregory F.",
+          "party": "Republican",
+          "district": 3
+        },
+        {
+          "name": "Foushee, Valerie P.",
+          "party": "Democratic",
+          "district": 4
+        },
+        {
+          "name": "Foxx, Virginia",
+          "party": "Republican",
+          "district": 5
+        },
+        {
+          "name": "McDowell, Addison P.",
+          "party": "Republican",
+          "district": 6
+        },
+        {
+          "name": "Rouzer, David",
+          "party": "Republican",
+          "district": 7
+        },
+        {
+          "name": "Harris, Mark",
+          "party": "Republican",
+          "district": 8
+        },
+        {
+          "name": "Hudson, Richard",
+          "party": "Republican",
+          "district": 9
+        },
+        {
+          "name": "Harrigan, Pat",
+          "party": "Republican",
+          "district": 10
+        },
+        {
+          "name": "Edwards, Chuck",
+          "party": "Republican",
+          "district": 11
+        },
+        {
+          "name": "Adams, Alma S.",
+          "party": "Democratic",
+          "district": 12
+        },
+        {
+          "name": "Knott, Brad",
+          "party": "Republican",
+          "district": 13
+        },
+        {
+          "name": "Moore, Tim",
+          "party": "Republican",
+          "district": 14
+        }
+      ]
+    },
+    "North Dakota": {
+      "senators": [
+        {
+          "name": "Hoeven, John",
+          "party": "Republican"
+        },
+        {
+          "name": "Cramer, Kevin",
+          "party": "Republican"
+        }
+      ],
+      "representatives": []
+    },
+    "Ohio": {
+      "senators": [
+        {
+          "name": "Moreno, Bernie",
+          "party": "Republican"
+        },
+        {
+          "name": "Husted, Jon",
+          "party": "Republican"
+        }
+      ],
+      "representatives": [
+        {
+          "name": "Landsman, Greg",
+          "party": "Democratic",
+          "district": 1
+        },
+        {
+          "name": "Taylor, David J.",
+          "party": "Republican",
+          "district": 2
+        },
+        {
+          "name": "Beatty, Joyce",
+          "party": "Democratic",
+          "district": 3
+        },
+        {
+          "name": "Jordan, Jim",
+          "party": "Republican",
+          "district": 4
+        },
+        {
+          "name": "Latta, Robert E.",
+          "party": "Republican",
+          "district": 5
+        },
+        {
+          "name": "Rulli, Michael A.",
+          "party": "Republican",
+          "district": 6
+        },
+        {
+          "name": "Miller, Max L.",
+          "party": "Republican",
+          "district": 7
+        },
+        {
+          "name": "Davidson, Warren",
+          "party": "Republican",
+          "district": 8
+        },
+        {
+          "name": "Kaptur, Marcy",
+          "party": "Democratic",
+          "district": 9
+        },
+        {
+          "name": "Turner, Michael R.",
+          "party": "Republican",
+          "district": 10
+        },
+        {
+          "name": "Brown, Shontel M.",
+          "party": "Democratic",
+          "district": 11
+        },
+        {
+          "name": "Balderson, Troy",
+          "party": "Republican",
+          "district": 12
+        },
+        {
+          "name": "Sykes, Emilia Strong",
+          "party": "Democratic",
+          "district": 13
+        },
+        {
+          "name": "Joyce, David P.",
+          "party": "Republican",
+          "district": 14
+        },
+        {
+          "name": "Carey, Mike",
+          "party": "Republican",
+          "district": 15
+        }
+      ]
+    },
+    "Oklahoma": {
+      "senators": [
+        {
+          "name": "Armstrong, Alan",
+          "party": "Republican"
+        },
+        {
+          "name": "Lankford, James",
+          "party": "Republican"
+        }
+      ],
+      "representatives": [
+        {
+          "name": "Hern, Kevin",
+          "party": "Republican",
+          "district": 1
+        },
+        {
+          "name": "Brecheen, Josh",
+          "party": "Republican",
+          "district": 2
+        },
+        {
+          "name": "Lucas, Frank D.",
+          "party": "Republican",
+          "district": 3
+        },
+        {
+          "name": "Cole, Tom",
+          "party": "Republican",
+          "district": 4
+        },
+        {
+          "name": "Bice, Stephanie I.",
+          "party": "Republican",
+          "district": 5
+        }
+      ]
+    },
+    "Oregon": {
+      "senators": [
+        {
+          "name": "Wyden, Ron",
+          "party": "Democratic"
+        },
+        {
+          "name": "Merkley, Jeff",
+          "party": "Democratic"
+        }
+      ],
+      "representatives": [
+        {
+          "name": "Bonamici, Suzanne",
+          "party": "Democratic",
+          "district": 1
+        },
+        {
+          "name": "Bentz, Cliff",
+          "party": "Republican",
+          "district": 2
+        },
+        {
+          "name": "Dexter, Maxine",
+          "party": "Democratic",
+          "district": 3
+        },
+        {
+          "name": "Hoyle, Val T.",
+          "party": "Democratic",
+          "district": 4
+        },
+        {
+          "name": "Bynum, Janelle S.",
+          "party": "Democratic",
+          "district": 5
+        },
+        {
+          "name": "Salinas, Andrea",
+          "party": "Democratic",
+          "district": 6
+        }
+      ]
+    },
+    "Pennsylvania": {
+      "senators": [
+        {
+          "name": "McCormick, David",
+          "party": "Republican"
+        },
+        {
+          "name": "Fetterman, John",
+          "party": "Democratic"
+        }
+      ],
+      "representatives": [
+        {
+          "name": "Fitzpatrick, Brian K.",
+          "party": "Republican",
+          "district": 1
+        },
+        {
+          "name": "Boyle, Brendan F.",
+          "party": "Democratic",
+          "district": 2
+        },
+        {
+          "name": "Evans, Dwight",
+          "party": "Democratic",
+          "district": 3
+        },
+        {
+          "name": "Dean, Madeleine",
+          "party": "Democratic",
+          "district": 4
+        },
+        {
+          "name": "Scanlon, Mary Gay",
+          "party": "Democratic",
+          "district": 5
+        },
+        {
+          "name": "Houlahan, Chrissy",
+          "party": "Democratic",
+          "district": 6
+        },
+        {
+          "name": "Mackenzie, Ryan",
+          "party": "Republican",
+          "district": 7
+        },
+        {
+          "name": "Bresnahan, Robert P.",
+          "party": "Republican",
+          "district": 8
+        },
+        {
+          "name": "Meuser, Daniel",
+          "party": "Republican",
+          "district": 9
+        },
+        {
+          "name": "Perry, Scott",
+          "party": "Republican",
+          "district": 10
+        },
+        {
+          "name": "Smucker, Lloyd",
+          "party": "Republican",
+          "district": 11
+        },
+        {
+          "name": "Lee, Summer L.",
+          "party": "Democratic",
+          "district": 12
+        },
+        {
+          "name": "Joyce, John",
+          "party": "Republican",
+          "district": 13
+        },
+        {
+          "name": "Reschenthaler, Guy",
+          "party": "Republican",
+          "district": 14
+        },
+        {
+          "name": "Thompson, Glenn",
+          "party": "Republican",
+          "district": 15
+        },
+        {
+          "name": "Kelly, Mike",
+          "party": "Republican",
+          "district": 16
+        },
+        {
+          "name": "Deluzio, Christopher R.",
+          "party": "Democratic",
+          "district": 17
+        }
+      ]
+    },
+    "Rhode Island": {
+      "senators": [
+        {
+          "name": "Whitehouse, Sheldon",
+          "party": "Democratic"
+        },
+        {
+          "name": "Reed, Jack",
+          "party": "Democratic"
+        }
+      ],
+      "representatives": [
+        {
+          "name": "Amo, Gabe",
+          "party": "Democratic",
+          "district": 1
+        },
+        {
+          "name": "Magaziner, Seth",
+          "party": "Democratic",
+          "district": 2
+        }
+      ]
+    },
+    "South Carolina": {
+      "senators": [
+        {
+          "name": "Scott, Tim",
+          "party": "Republican"
+        },
+        {
+          "name": "Graham, Lindsey",
+          "party": "Republican"
+        }
+      ],
+      "representatives": [
+        {
+          "name": "Mace, Nancy",
+          "party": "Republican",
+          "district": 1
+        },
+        {
+          "name": "Wilson, Joe",
+          "party": "Republican",
+          "district": 2
+        },
+        {
+          "name": "Biggs, Sheri",
+          "party": "Republican",
+          "district": 3
+        },
+        {
+          "name": "Timmons, William R.",
+          "party": "Republican",
+          "district": 4
+        },
+        {
+          "name": "Norman, Ralph",
+          "party": "Republican",
+          "district": 5
+        },
+        {
+          "name": "Clyburn, James E.",
+          "party": "Democratic",
+          "district": 6
+        },
+        {
+          "name": "Fry, Russell",
+          "party": "Republican",
+          "district": 7
+        }
+      ]
+    },
+    "South Dakota": {
+      "senators": [
+        {
+          "name": "Thune, John",
+          "party": "Republican"
+        },
+        {
+          "name": "Rounds, Mike",
+          "party": "Republican"
+        }
+      ],
+      "representatives": []
+    },
+    "Tennessee": {
+      "senators": [
+        {
+          "name": "Hagerty, Bill",
+          "party": "Republican"
+        },
+        {
+          "name": "Blackburn, Marsha",
+          "party": "Republican"
+        }
+      ],
+      "representatives": [
+        {
+          "name": "Harshbarger, Diana",
+          "party": "Republican",
+          "district": 1
+        },
+        {
+          "name": "Burchett, Tim",
+          "party": "Republican",
+          "district": 2
+        },
+        {
+          "name": "Fleischmann, Charles J. \"Chuck\"",
+          "party": "Republican",
+          "district": 3
+        },
+        {
+          "name": "DesJarlais, Scott",
+          "party": "Republican",
+          "district": 4
+        },
+        {
+          "name": "Ogles, Andrew",
+          "party": "Republican",
+          "district": 5
+        },
+        {
+          "name": "Rose, John W.",
+          "party": "Republican",
+          "district": 6
+        },
+        {
+          "name": "Van Epps, Matt",
+          "party": "Republican",
+          "district": 7
+        },
+        {
+          "name": "Kustoff, David",
+          "party": "Republican",
+          "district": 8
+        },
+        {
+          "name": "Cohen, Steve",
+          "party": "Democratic",
+          "district": 9
+        }
+      ]
+    },
+    "Texas": {
+      "senators": [
+        {
+          "name": "Cruz, Ted",
+          "party": "Republican"
+        },
+        {
+          "name": "Cornyn, John",
+          "party": "Republican"
+        }
+      ],
+      "representatives": [
+        {
+          "name": "Moran, Nathaniel",
+          "party": "Republican",
+          "district": 1
+        },
+        {
+          "name": "Crenshaw, Dan",
+          "party": "Republican",
+          "district": 2
+        },
+        {
+          "name": "Self, Keith",
+          "party": "Republican",
+          "district": 3
+        },
+        {
+          "name": "Fallon, Pat",
+          "party": "Republican",
+          "district": 4
+        },
+        {
+          "name": "Gooden, Lance",
+          "party": "Republican",
+          "district": 5
+        },
+        {
+          "name": "Ellzey, Jake",
+          "party": "Republican",
+          "district": 6
+        },
+        {
+          "name": "Fletcher, Lizzie",
+          "party": "Democratic",
+          "district": 7
+        },
+        {
+          "name": "Luttrell, Morgan",
+          "party": "Republican",
+          "district": 8
+        },
+        {
+          "name": "Green, Al",
+          "party": "Democratic",
+          "district": 9
+        },
+        {
+          "name": "McCaul, Michael T.",
+          "party": "Republican",
+          "district": 10
+        },
+        {
+          "name": "Pfluger, August",
+          "party": "Republican",
+          "district": 11
+        },
+        {
+          "name": "Goldman, Craig A.",
+          "party": "Republican",
+          "district": 12
+        },
+        {
+          "name": "Jackson, Ronny",
+          "party": "Republican",
+          "district": 13
+        },
+        {
+          "name": "Weber, Randy K. Sr.",
+          "party": "Republican",
+          "district": 14
+        },
+        {
+          "name": "De La Cruz, Monica",
+          "party": "Republican",
+          "district": 15
+        },
+        {
+          "name": "Escobar, Veronica",
+          "party": "Democratic",
+          "district": 16
+        },
+        {
+          "name": "Sessions, Pete",
+          "party": "Republican",
+          "district": 17
+        },
+        {
+          "name": "Menefee, Christian D.",
+          "party": "Democratic",
+          "district": 18
+        },
+        {
+          "name": "Arrington, Jodey C.",
+          "party": "Republican",
+          "district": 19
+        },
+        {
+          "name": "Castro, Joaquin",
+          "party": "Democratic",
+          "district": 20
+        },
+        {
+          "name": "Roy, Chip",
+          "party": "Republican",
+          "district": 21
+        },
+        {
+          "name": "Nehls, Troy E.",
+          "party": "Republican",
+          "district": 22
+        },
+        {
+          "name": "Van Duyne, Beth",
+          "party": "Republican",
+          "district": 24
+        },
+        {
+          "name": "Williams, Roger",
+          "party": "Republican",
+          "district": 25
+        },
+        {
+          "name": "Gill, Brandon",
+          "party": "Republican",
+          "district": 26
+        },
+        {
+          "name": "Cloud, Michael",
+          "party": "Republican",
+          "district": 27
+        },
+        {
+          "name": "Cuellar, Henry",
+          "party": "Democratic",
+          "district": 28
+        },
+        {
+          "name": "Garcia, Sylvia R.",
+          "party": "Democratic",
+          "district": 29
+        },
+        {
+          "name": "Crockett, Jasmine",
+          "party": "Democratic",
+          "district": 30
+        },
+        {
+          "name": "Carter, John R.",
+          "party": "Republican",
+          "district": 31
+        },
+        {
+          "name": "Johnson, Julie",
+          "party": "Democratic",
+          "district": 32
+        },
+        {
+          "name": "Veasey, Marc A.",
+          "party": "Democratic",
+          "district": 33
+        },
+        {
+          "name": "Gonzalez, Vicente",
+          "party": "Democratic",
+          "district": 34
+        },
+        {
+          "name": "Casar, Greg",
+          "party": "Democratic",
+          "district": 35
+        },
+        {
+          "name": "Babin, Brian",
+          "party": "Republican",
+          "district": 36
+        },
+        {
+          "name": "Doggett, Lloyd",
+          "party": "Democratic",
+          "district": 37
+        },
+        {
+          "name": "Hunt, Wesley",
+          "party": "Republican",
+          "district": 38
+        }
+      ]
+    },
+    "Utah": {
+      "senators": [
+        {
+          "name": "Lee, Mike",
+          "party": "Republican"
+        },
+        {
+          "name": "Curtis, John R.",
+          "party": "Republican"
+        }
+      ],
+      "representatives": [
+        {
+          "name": "Moore, Blake D.",
+          "party": "Republican",
+          "district": 1
+        },
+        {
+          "name": "Maloy, Celeste",
+          "party": "Republican",
+          "district": 2
+        },
+        {
+          "name": "Kennedy, Mike",
+          "party": "Republican",
+          "district": 3
+        },
+        {
+          "name": "Owens, Burgess",
+          "party": "Republican",
+          "district": 4
+        }
+      ]
+    },
+    "Vermont": {
+      "senators": [
+        {
+          "name": "Welch, Peter",
+          "party": "Democratic"
+        },
+        {
+          "name": "Sanders, Bernard",
+          "party": "Independent"
+        }
+      ],
+      "representatives": []
+    },
+    "Virginia": {
+      "senators": [
+        {
+          "name": "Warner, Mark R.",
+          "party": "Democratic"
+        },
+        {
+          "name": "Kaine, Tim",
+          "party": "Democratic"
+        }
+      ],
+      "representatives": [
+        {
+          "name": "Wittman, Robert J.",
+          "party": "Republican",
+          "district": 1
+        },
+        {
+          "name": "Kiggans, Jennifer A.",
+          "party": "Republican",
+          "district": 2
+        },
+        {
+          "name": "Scott, Robert C. \"Bobby\"",
+          "party": "Democratic",
+          "district": 3
+        },
+        {
+          "name": "McClellan, Jennifer L.",
+          "party": "Democratic",
+          "district": 4
+        },
+        {
+          "name": "McGuire, John J.",
+          "party": "Republican",
+          "district": 5
+        },
+        {
+          "name": "Cline, Ben",
+          "party": "Republican",
+          "district": 6
+        },
+        {
+          "name": "Vindman, Eugene Simon",
+          "party": "Democratic",
+          "district": 7
+        },
+        {
+          "name": "Beyer, Donald S.",
+          "party": "Democratic",
+          "district": 8
+        },
+        {
+          "name": "Griffith, H. Morgan",
+          "party": "Republican",
+          "district": 9
+        },
+        {
+          "name": "Subramanyam, Suhas",
+          "party": "Democratic",
+          "district": 10
+        },
+        {
+          "name": "Walkinshaw, James R.",
+          "party": "Democratic",
+          "district": 11
+        }
+      ]
+    },
+    "Washington": {
+      "senators": [
+        {
+          "name": "Murray, Patty",
+          "party": "Democratic"
+        },
+        {
+          "name": "Cantwell, Maria",
+          "party": "Democratic"
+        }
+      ],
+      "representatives": [
+        {
+          "name": "DelBene, Suzan K.",
+          "party": "Democratic",
+          "district": 1
+        },
+        {
+          "name": "Larsen, Rick",
+          "party": "Democratic",
+          "district": 2
+        },
+        {
+          "name": "Perez, Marie Gluesenkamp",
+          "party": "Democratic",
+          "district": 3
+        },
+        {
+          "name": "Newhouse, Dan",
+          "party": "Republican",
+          "district": 4
+        },
+        {
+          "name": "Baumgartner, Michael",
+          "party": "Republican",
+          "district": 5
+        },
+        {
+          "name": "Randall, Emily",
+          "party": "Democratic",
+          "district": 6
+        },
+        {
+          "name": "Jayapal, Pramila",
+          "party": "Democratic",
+          "district": 7
+        },
+        {
+          "name": "Schrier, Kim",
+          "party": "Democratic",
+          "district": 8
+        },
+        {
+          "name": "Smith, Adam",
+          "party": "Democratic",
+          "district": 9
+        },
+        {
+          "name": "Strickland, Marilyn",
+          "party": "Democratic",
+          "district": 10
+        }
+      ]
+    },
+    "West Virginia": {
+      "senators": [
+        {
+          "name": "Justice, James C.",
+          "party": "Republican"
+        },
+        {
+          "name": "Capito, Shelley Moore",
+          "party": "Republican"
+        }
+      ],
+      "representatives": [
+        {
+          "name": "Miller, Carol D.",
+          "party": "Republican",
+          "district": 1
+        },
+        {
+          "name": "Moore, Riley M.",
+          "party": "Republican",
+          "district": 2
+        }
+      ]
+    },
+    "Wisconsin": {
+      "senators": [
+        {
+          "name": "Johnson, Ron",
+          "party": "Republican"
+        },
+        {
+          "name": "Baldwin, Tammy",
+          "party": "Democratic"
+        }
+      ],
+      "representatives": [
+        {
+          "name": "Steil, Bryan",
+          "party": "Republican",
+          "district": 1
+        },
+        {
+          "name": "Pocan, Mark",
+          "party": "Democratic",
+          "district": 2
+        },
+        {
+          "name": "Van Orden, Derrick",
+          "party": "Republican",
+          "district": 3
+        },
+        {
+          "name": "Moore, Gwen",
+          "party": "Democratic",
+          "district": 4
+        },
+        {
+          "name": "Fitzgerald, Scott",
+          "party": "Republican",
+          "district": 5
+        },
+        {
+          "name": "Grothman, Glenn",
+          "party": "Republican",
+          "district": 6
+        },
+        {
+          "name": "Tiffany, Thomas P.",
+          "party": "Republican",
+          "district": 7
+        },
+        {
+          "name": "Wied, Tony",
+          "party": "Republican",
+          "district": 8
+        }
+      ]
+    },
+    "Wyoming": {
+      "senators": [
+        {
+          "name": "Lummis, Cynthia M.",
+          "party": "Republican"
+        },
+        {
+          "name": "Barrasso, John",
+          "party": "Republican"
+        }
+      ],
+      "representatives": []
+    }
+  }
+}

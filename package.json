@@ -5,20 +5,24 @@
   "scripts": {
     "dev": "next dev --webpack",
     "build": "next build --webpack",
-    "start": "next start"
+    "build:with-data": "npm run fetch-congress-data && npm run build",
+    "start": "next start",
+    "fetch-congress-data": "tsx src/scripts/fetch-congress-data.ts"
   },
   "dependencies": {
+    "dotenv": "^17.4.2",
+    "next": "16.2.6",
     "react": "19.2.6",
-    "react-dom": "19.2.6",
-    "next": "16.2.6"
+    "react-dom": "19.2.6"
   },
   "devDependencies": {
-    "typescript": "^5",
+    "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "19.2.15",
     "@types/react-dom": "19.2.3",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4"
+    "tailwindcss": "^4",
+    "tsx": "^4.19.2",
+    "typescript": "^5"
   },
   "overrides": {
     "@types/react": "19.2.15",

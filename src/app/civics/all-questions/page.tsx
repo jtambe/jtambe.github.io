@@ -227,14 +227,102 @@ export default function AllQuestionsPage() {
                                                                                             ⚠️ Please select your state above to see state-specific answers
                                                                                         </p>
                                                                                     )}
-                                                                                    <ul className="space-y-1.5">
-                                                                                        {answers.map((answer, idx) => (
-                                                                                            <li key={idx} className="flex items-start gap-2 text-sm text-gray-900">
-                                                                                                <span className="text-blue-600 font-bold text-base">•</span>
-                                                                                                <span>{answer}</span>
-                                                                                            </li>
-                                                                                        ))}
-                                                                                    </ul>
+                                                                                    
+                                                                                    {/* Extract metadata and regular answers */}
+                                                                                    {(() => {
+                                                                                        const metadataAnswers = answers.filter(a => a.startsWith('__META_'));
+                                                                                        const regularAnswers = answers.filter(a => !a.startsWith('__META_'));
+                                                                                        
+                                                                                        return (
+                                                                                            <>
+                                                                                                {/* Display all metadata in yellow info box */}
+                                                                                                {metadataAnswers.length > 0 && (
+                                                                                                    <div className="mb-3 rounded-lg bg-amber-50 border border-amber-200 p-3 text-xs text-amber-900">
+                                                                                                        <div className="space-y-1.5">
+                                                                                                            {metadataAnswers.map((meta, idx) => {
+                                                                                                                if (meta.startsWith('__META_SUMMARY__')) {
+                                                                                                                    return (
+                                                                                                                        <p key={idx} className="font-semibold">
+                                                                                                                            {meta.replace('__META_SUMMARY__', '')}
+                                                                                                                        </p>
+                                                                                                                    );
+                                                                                                                } else if (meta.startsWith('__META_INFO__')) {
+                                                                                                                    // Check if next item is a link to render inline
+                                                                                                                    const nextIdx = idx + 1;
+                                                                                                                    const nextMeta = metadataAnswers[nextIdx];
+                                                                                                                    if (nextMeta?.startsWith('__META_LINK__')) {
+                                                                                                                        const url = nextMeta.replace('__META_LINK__', '');
+                                                                                                                        return (
+                                                                                                                            <p key={idx}>
+                                                                                                                                ℹ️ {meta.replace('__META_INFO__', '')}{' '}
+                                                                                                                                <a
+                                                                                                                                    href={url}
+                                                                                                                                    target="_blank"
+                                                                                                                                    rel="noopener noreferrer"
+                                                                                                                                    className="font-semibold text-amber-900 underline decoration-amber-600 underline-offset-2 hover:text-amber-800"
+                                                                                                                                >
+                                                                                                                                    {url}
+                                                                                                                                </a>
+                                                                                                                            </p>
+                                                                                                                        );
+                                                                                                                    }
+                                                                                                                    return (
+                                                                                                                        <p key={idx}>
+                                                                                                                            ℹ️ {meta.replace('__META_INFO__', '')}
+                                                                                                                        </p>
+                                                                                                                    );
+                                                                                                                } else if (meta.startsWith('__META_LINK__')) {
+                                                                                                                    // Skip if already rendered inline with INFO
+                                                                                                                    const prevIdx = idx - 1;
+                                                                                                                    const prevMeta = metadataAnswers[prevIdx];
+                                                                                                                    if (prevMeta?.startsWith('__META_INFO__')) {
+                                                                                                                        return null;
+                                                                                                                    }
+                                                                                                                    // Standalone link
+                                                                                                                    const url = meta.replace('__META_LINK__', '');
+                                                                                                                    return (
+                                                                                                                        <p key={idx}>
+                                                                                                                            <a
+                                                                                                                                href={url}
+                                                                                                                                target="_blank"
+                                                                                                                                rel="noopener noreferrer"
+                                                                                                                                className="font-semibold text-amber-900 underline decoration-amber-600 underline-offset-2 hover:text-amber-800"
+                                                                                                                            >
+                                                                                                                                {url}
+                                                                                                                            </a>
+                                                                                                                        </p>
+                                                                                                                    );
+                                                                                                                } else if (meta.startsWith('__META_DATE__')) {
+                                                                                                                    return (
+                                                                                                                        <p key={idx} className="text-xs">
+                                                                                                                            📅 {meta.replace('__META_DATE__', '')}
+                                                                                                                        </p>
+                                                                                                                    );
+                                                                                                                } else if (meta.startsWith('__META_HEADER__')) {
+                                                                                                                    return (
+                                                                                                                        <p key={idx} className="font-semibold mt-1.5 pt-1.5 border-t border-amber-300">
+                                                                                                                            {meta.replace('__META_HEADER__', '')}
+                                                                                                                        </p>
+                                                                                                                    );
+                                                                                                                }
+                                                                                                                return null;
+                                                                                                            })}
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                )}
+                                                                                                
+                                                                                                {/* Display regular answers as bullets */}
+                                                                                                <ul className="space-y-1.5">
+                                                                                                    {regularAnswers.map((answer, idx) => (
+                                                                                                        <li key={idx} className="flex items-start gap-2 text-sm text-gray-900">
+                                                                                                            <span className="text-blue-600 font-bold text-base">•</span>
+                                                                                                            <span>{answer}</span>
+                                                                                                        </li>
+                                                                                                    ))}
+                                                                                                </ul>
+                                                                                            </>
+                                                                                        );
+                                                                                    })()}
                                                                                     {q.referenceNote ? (
                                                                                         <p className="mt-3 rounded-lg border border-sky-200 bg-sky-50 p-2 text-xs text-sky-900">
                                                                                             Note: {q.referenceNote.text}{" "}
