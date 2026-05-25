@@ -1,5 +1,44 @@
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
+## SEO
+
+This app uses Next.js App Router's built-in metadata features for search engine optimization.
+
+### Metadata (`src/app/layout.tsx` / page-level `metadata` exports)
+Each page exports a `metadata` object with `title`, `description`, `keywords`, and `openGraph` fields.
+These are rendered as `<meta>` tags in the `<head>` of each page at build time.
+
+Pages with metadata:
+- `src/app/page.tsx` — Home / Portfolio
+- `src/app/civics/page.tsx` — U.S. Civics Quiz
+- `src/app/civics/all-questions/page.tsx` — All USCIS Civics Questions
+
+### SEO Files
+
+| File | Served at | Purpose |
+|---|---|---|
+| `src/app/sitemap.ts` | `/sitemap.xml` | Lists all pages for search engine crawlers |
+| `src/app/robots.ts` | `/robots.txt` | Tells crawlers which pages to allow or disallow |
+| `src/app/manifest.ts` | `/manifest.webmanifest` | Web App Manifest for PWA support and browser metadata |
+
+Next.js auto-generates these files from the `.ts` sources at build time (static export writes them to `out/`).
+
+**Accessing locally** (with `npm run dev` running):
+- http://localhost:3000/sitemap.xml
+- http://localhost:3000/robots.txt
+- http://localhost:3000/manifest.webmanifest
+
+**Accessing on the live site:**
+- https://jtambe.github.io/sitemap.xml
+- https://jtambe.github.io/robots.txt
+- https://jtambe.github.io/manifest.webmanifest
+
+### Static Export
+`next.config.ts` uses `output: "export"` so the app builds to static files in `out/` for GitHub Pages hosting.
+All SEO route files include `export const dynamic = "force-static"` to be compatible with static export.
+
+---
+
 ## USCIS N-400 Civics Test (Oct 2025 Version)
 
 This portfolio includes an interactive USCIS N-400 Civics Test section with all 128 questions required for the U.S. naturalization test. The test includes live data integration with the Congress.gov API for state-specific questions about U.S. Senators and Representatives.
