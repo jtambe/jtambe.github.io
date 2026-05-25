@@ -15,9 +15,18 @@ export default function CivicsNav() {
                     <div className="flex items-center gap-8">
                         <Link
                             href="/"
-                            className="text-lg font-bold text-gray-900 hover:text-blue-600 transition-colors"
+                            className="text-gray-900 hover:text-blue-600 transition-colors"
+                            aria-label="Home"
                         >
-                            Portfolio
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                fill="currentColor"
+                                viewBox="0 0 24 24"
+                            >
+                                <path d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z" />
+                            </svg>
                         </Link>
                         <div className="hidden md:flex gap-1">
                             <Link
