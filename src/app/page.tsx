@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import TechnologiesCarousel from "./components/technologies-carousel";
+import ProjectShowcase from "./components/project-showcase";
 
 export const metadata: Metadata = {
     title: "Jayesh Tambe | Senior Software Engineer",
@@ -51,26 +52,7 @@ export default function Home() {
                     <h4 className="text-2xl font-bold">Technologies I've used</h4>
                 </div>
                 <TechnologiesCarousel />
-                <div className="flex gap-4 items-center flex-col sm:flex-row">
-                    <Link
-                        className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark   :hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-                        href="/projects"
-                    >
-                        View Projects
-                    </Link>
-                    <Link
-                        className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-                        href="/contact"
-                    >
-                        Contact Me
-                    </Link>
-                    <Link
-                        className="rounded-full border border-solid border-black/[.15] transition-colors flex items-center justify-center hover:bg-[#eef6ff] hover:border-[#93c5fd] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto"
-                        href="/civics"
-                    >
-                        U.S. Civics Quiz
-                    </Link>
-                </div>
+                <ProjectShowcase />
             </main>
             <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
                 {/* LinkedIn Link */}
