@@ -37,6 +37,7 @@ export default function CivicsQuiz() {
     const [studied, setStudied] = useState<number[]>([]);
     const [revealed, setRevealed] = useState(false);
     const [reviewMistakesOnly, setReviewMistakesOnly] = useState(false);
+    const [reviewStarsOnly, setReviewStarsOnly] = useState(false);
     const [userState, setUserState] = useState<string>("");
 
     useEffect(() => {
@@ -92,12 +93,15 @@ export default function CivicsQuiz() {
             selected = selected.filter((q) => q.subsection === activeSubsection);
         }
 
-        if (reviewMistakesOnly) {
-            selected = selected.filter((q) => mistakes.includes(q.id));
+        if (reviewMistakesOnly || reviewStarsOnly) {
+            selected = selected.filter((q) =>
+                (reviewMistakesOnly && mistakes.includes(q.id)) ||
+                (reviewStarsOnly && stars.includes(q.id))
+            );
         }
 
         return selected;
-    }, [activeSection, activeSubsection, questionFilter, mistakes, orderedBase, reviewMistakesOnly]);
+    }, [activeSection, activeSubsection, questionFilter, mistakes, stars, orderedBase, reviewMistakesOnly, reviewStarsOnly]);
 
     const totalQuestions = questionFilter === "65plus" ? 20 : 128;
     const studiedCount = studied.filter((id) =>
@@ -108,7 +112,7 @@ export default function CivicsQuiz() {
     useEffect(() => {
         setIndex(0);
         setRevealed(false);
-    }, [questionFilter, activeSection, activeSubsection, mode, reviewMistakesOnly]);
+    }, [questionFilter, activeSection, activeSubsection, mode, reviewMistakesOnly, reviewStarsOnly]);
 
     const current = filtered[index] ?? null;
     const currentAnswers = current ? getAnswersForQuestion(current, userState) : [];
@@ -333,6 +337,20 @@ export default function CivicsQuiz() {
                     />
                     <label htmlFor="review-mistakes" className="text-sm font-medium text-gray-700">
                         Review Mistakes Only
+                    </label>
+                </div>
+
+                {/* Review Stars Toggle */}
+                <div className="mt-2 flex items-center gap-3">
+                    <input
+                        type="checkbox"
+                        id="review-stars"
+                        checked={reviewStarsOnly}
+                        onChange={(e) => setReviewStarsOnly(e.target.checked)}
+                        className="h-5 w-5 rounded border-gray-300 text-yellow-500 focus:ring-2 focus:ring-yellow-400"
+                    />
+                    <label htmlFor="review-stars" className="text-sm font-medium text-gray-700">
+                        ⭐ Review Stars Only
                     </label>
                 </div>
             </div>
