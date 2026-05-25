@@ -1,5 +1,27 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import TechnologiesCarousel from "./components/technologies-carousel";
+
+export const metadata: Metadata = {
+    title: "Jayesh Tambe | Senior Software Engineer",
+    description:
+        "Jayesh Tambe — Senior Software Engineer with 15 years of expertise in HealthTech, Banking, Logistics, and Education. Specializing in cloud-native microservices on AWS and Kubernetes.",
+    keywords: [
+        "Jayesh Tambe",
+        "Senior Software Engineer",
+        "AWS",
+        "Kubernetes",
+        "cloud-native",
+        "microservices",
+        "HealthTech",
+    ],
+    openGraph: {
+        title: "Jayesh Tambe | Senior Software Engineer",
+        description:
+            "Senior Software Engineer with 15 years of expertise in cloud-native microservices on AWS and Kubernetes.",
+        type: "website",
+    },
+};
 
 export default function Home() {
     return (
