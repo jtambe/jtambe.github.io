@@ -72,7 +72,9 @@ export function getAnswersForQuestion(question: CivicsQuestion, userState?: stri
             
             // List of districts and representatives
             stateCongressData.representatives.forEach((rep: any) => {
-                answers.push(`District ${rep.district}: ${rep.name} (${rep.party})`);
+                // Display "At-Large" for states with single representative (district 0)
+                const districtLabel = rep.district === 0 ? 'At-Large' : `District ${rep.district}`;
+                answers.push(`${districtLabel}: ${rep.name} (${rep.party})`);
             });
             
         } else if (staticStateData?.representative) {

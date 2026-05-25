@@ -164,11 +164,14 @@ function processMembers(members: CongressMember[]): CongressData {
         party: member.partyName
       });
       senatorCount++;
-    } else if (chamber === 'House of Representatives' && member.district) {
+    } else if (chamber === 'House of Representatives') {
+      // Handle at-large districts (Alaska, Delaware, Vermont, Wyoming, etc.)
+      // These states have district 0 or undefined
+      const district = member.district !== undefined ? member.district : 0;
       states[state].representatives.push({
         name: member.name,
         party: member.partyName,
-        district: member.district
+        district: district
       });
       representativeCount++;
     }

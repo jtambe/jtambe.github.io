@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-05-25T06:37:06.178Z",
+  "lastUpdated": "2026-05-25T18:42:14.834Z",
   "mostRecentCongressUpdate": "2026-05-21T15:05:48Z",
   "states": {
     "Alabama": {
@@ -62,7 +62,13 @@
           "party": "Republican"
         }
       ],
-      "representatives": []
+      "representatives": [
+        {
+          "name": "Begich, Nicholas J.",
+          "party": "Republican",
+          "district": 0
+        }
+      ]
     },
     "Arizona": {
       "senators": [
@@ -525,7 +531,13 @@
           "party": "Democratic"
         }
       ],
-      "representatives": []
+      "representatives": [
+        {
+          "name": "McBride, Sarah",
+          "party": "Democratic",
+          "district": 0
+        }
+      ]
     },
     "Florida": {
       "senators": [
@@ -1928,7 +1940,13 @@
           "party": "Republican"
         }
       ],
-      "representatives": []
+      "representatives": [
+        {
+          "name": "Fedorchak, Julie",
+          "party": "Republican",
+          "district": 0
+        }
+      ]
     },
     "Ohio": {
       "senators": [
@@ -2285,7 +2303,13 @@
           "party": "Republican"
         }
       ],
-      "representatives": []
+      "representatives": [
+        {
+          "name": "Johnson, Dusty",
+          "party": "Republican",
+          "district": 0
+        }
+      ]
     },
     "Tennessee": {
       "senators": [
@@ -2590,7 +2614,13 @@
           "party": "Independent"
         }
       ],
-      "representatives": []
+      "representatives": [
+        {
+          "name": "Balint, Becca",
+          "party": "Democratic",
+          "district": 0
+        }
+      ]
     },
     "Virginia": {
       "senators": [
@@ -2814,7 +2844,13 @@
           "party": "Republican"
         }
       ],
-      "representatives": []
+      "representatives": [
+        {
+          "name": "Hageman, Harriet M.",
+          "party": "Republican",
+          "district": 0
+        }
+      ]
     }
   }
 }
