@@ -259,7 +259,7 @@ export default function AllQuestionsClient() {
                                                                                                                                     href={url}
                                                                                                                                     target="_blank"
                                                                                                                                     rel="noopener noreferrer"
-                                                                                                                                    className="font-semibold text-amber-900 underline decoration-amber-600 underline-offset-2 hover:text-amber-800"
+                                                                                                                                    className="font-semibold text-amber-900 underline decoration-amber-600 underline-offset-2 hover:text-amber-800 break-all"
                                                                                                                                 >
                                                                                                                                     {url}
                                                                                                                                 </Link>
@@ -284,7 +284,7 @@ export default function AllQuestionsClient() {
                                                                                                                                 href={url}
                                                                                                                                 target="_blank"
                                                                                                                                 rel="noopener noreferrer"
-                                                                                                                                className="font-semibold text-amber-900 underline decoration-amber-600 underline-offset-2 hover:text-amber-800"
+                                                                                                                                className="font-semibold text-amber-900 underline decoration-amber-600 underline-offset-2 hover:text-amber-800 break-all"
                                                                                                                             >
                                                                                                                                 {url}
                                                                                                                             </Link>

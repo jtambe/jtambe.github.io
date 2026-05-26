@@ -47,7 +47,7 @@ export default function ProjectShowcase() {
                 {/* GreduQuest */}
                 <ShowcaseCard delay={0}>
                     <div className="rounded-2xl border border-gray-200 bg-white shadow-sm hover:shadow-md transition-shadow duration-300 p-6">
-                        <div className="flex items-start justify-between gap-4 mb-4">
+                        <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 mb-4">
                             <div className="flex items-center gap-3">
                                 <img
                                     src="https://www.google.com/s2/favicons?domain=greduquest.com&sz=64"
@@ -56,16 +56,16 @@ export default function ProjectShowcase() {
                                     height={48}
                                     className="w-12 h-12 rounded-xl border border-gray-100 object-contain bg-white"
                                 />
-                                <div>
+                                <div className="min-w-0 flex-1">
                                     <h3 className="text-xl font-bold text-gray-900">GreduQuest</h3>
-                                    <p className="text-sm text-blue-600 font-medium">greduquest.com</p>
+                                    <p className="text-sm text-blue-600 font-medium break-words">greduquest.com</p>
                                 </div>
                             </div>
                             <Link
                                 href="https://greduquest.com"
                                 target="_blank"
                                 rel="noopener noreferrer"
-                                className="shrink-0 rounded-full bg-blue-600 text-white text-sm font-semibold px-4 py-2 hover:bg-blue-700 transition-colors"
+                                className="self-start shrink-0 rounded-full bg-blue-600 text-white text-sm font-semibold px-4 py-2 hover:bg-blue-700 transition-colors whitespace-nowrap"
                             >
                                 Visit App ↗
                             </Link>
@@ -90,14 +90,20 @@ export default function ProjectShowcase() {
                 {/* USCIS Civics */}
                 <ShowcaseCard delay={150}>
                     <div className="rounded-2xl border border-gray-200 bg-white shadow-sm hover:shadow-md transition-shadow duration-300 p-6">
-                        <div className="flex items-start justify-between gap-4 mb-4">
+                        <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 mb-4">
                             <div className="flex items-center gap-3">
-                                <div className="w-12 h-12 rounded-xl border border-gray-200 bg-gray-50 flex items-center justify-center text-3xl select-none">
-                                    🇺🇸
+                                <div className="w-12 h-12 shrink-0 rounded-xl border border-gray-200 bg-white flex items-center justify-center overflow-hidden">
+                                    <img
+                                        src="https://flagcdn.com/us.svg"
+                                        alt="US Flag"
+                                        width={48}
+                                        height={48}
+                                        className="w-full h-full object-cover"
+                                    />
                                 </div>
-                                <div>
+                                <div className="min-w-0 flex-1">
                                     <h3 className="text-xl font-bold text-gray-900">U.S. Civics Quiz</h3>
-                                    <p className="text-sm text-green-600 font-medium">
+                                    <p className="text-sm text-green-600 font-medium break-words">
                                         USCIS Citizenship Test Prep
                                     </p>
                                 </div>
@@ -125,13 +131,13 @@ export default function ProjectShowcase() {
                                 href="/civics"
                                 className="rounded-full bg-green-600 text-white text-sm font-semibold px-4 py-2 hover:bg-green-700 transition-colors"
                             >
-                                Start Quiz
+                                Start Quiz ↗
                             </Link>
                             <Link
                                 href="/civics/all-questions"
-                                className="rounded-full border border-green-600 text-green-700 text-sm font-semibold px-4 py-2 hover:bg-green-50 transition-colors"
+                                className="rounded-full bg-green-600 text-white text-sm font-semibold px-4 py-2 hover:bg-green-700 transition-colors"
                             >
-                                All Questions
+                                All Questions ↗
                             </Link>
                         </div>
                     </div>
