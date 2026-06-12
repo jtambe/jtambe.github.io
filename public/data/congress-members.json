@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-05-25T18:42:14.834Z",
-  "mostRecentCongressUpdate": "2026-05-21T15:05:48Z",
+  "lastUpdated": "2026-06-12T22:42:23.757Z",
+  "mostRecentCongressUpdate": "2026-06-12T07:40:35Z",
   "states": {
     "Alabama": {
       "senators": [
@@ -175,6 +175,11 @@
         }
       ],
       "representatives": [
+        {
+          "name": "Gallagher, James",
+          "party": "Republican",
+          "district": 1
+        },
         {
           "name": "Huffman, Jared",
           "party": "Democratic",
