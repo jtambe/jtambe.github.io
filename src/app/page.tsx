@@ -4,9 +4,9 @@ import TechnologiesCarousel from "./components/technologies-carousel";
 import ProjectShowcase from "./components/project-showcase";
 
 export const metadata: Metadata = {
-    title: "Jayesh Tambe | Senior Software Engineer",
+    title: "Jayesh Tambe | Senior Software Engineer - Cloud & AI/ML Specialist",
     description:
-        "Jayesh Tambe — Senior Software Engineer with 15 years of expertise in HealthTech, Banking, Logistics, and Education. Specializing in cloud-native microservices on AWS and Kubernetes.",
+        "Jayesh Tambe — Senior Software Engineer with 15 years of expertise across HealthTech, Banking, Logistics, and Education. Specializing in cloud-native microservices, AWS, Kubernetes, and AI/ML solutions.",
     keywords: [
         "Jayesh Tambe",
         "Senior Software Engineer",
@@ -15,12 +15,28 @@ export const metadata: Metadata = {
         "cloud-native",
         "microservices",
         "HealthTech",
+        "AI/ML",
+        "Python",
+        "Flask",
+        "FastAPI",
+        "Django",
+        "Databricks",
+        "Machine Learning",
+        "mlflow",
+        "langchain",
+        "langgraph",
+        "langsmith",
+        "dspy",
+        "arize",
+        "datadog",
+        "Grafana",
     ],
     openGraph: {
         title: "Jayesh Tambe | Senior Software Engineer",
         description:
-            "Senior Software Engineer with 15 years of expertise in cloud-native microservices on AWS and Kubernetes.",
+            "Senior Software Engineer with 15 years of expertise in cloud-native microservices, AWS, Kubernetes, and AI/ML solutions.",
         type: "website",
+        url: "https://jtambe.github.io",
     },
 };
 
