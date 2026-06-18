@@ -53,28 +53,30 @@ export default function BlogPage() {
                                     {post.title}
                                 </h2>
                             </a>
-                            <div className="flex items-center gap-4 mb-3 text-sm text-gray-600 dark:text-gray-400">
-                                <time dateTime={post.date.toISOString()}>
-                                    {post.date.toLocaleDateString("en-US", {
-                                        year: "numeric",
-                                        month: "long",
-                                        day: "numeric",
-                                    })}
-                                </time>
-                                {post.source && (
-                                    <>
-                                        <span>•</span>
-                                        <a
-                                            href={post.source.url}
-                                            target="_blank"
-                                            rel="noopener noreferrer"
-                                            className="text-blue-600 dark:text-blue-400 hover:underline"
-                                        >
-                                            {post.source.name}
-                                        </a>
-                                    </>
-                                )}
-                            </div>
+                            <a 
+                                href={post.source?.url || "#"}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="block hover:opacity-75 transition"
+                            >
+                                <div className="flex items-center gap-4 mb-3 text-sm text-gray-600 dark:text-gray-400">
+                                    <time dateTime={post.date.toISOString()}>
+                                        {post.date.toLocaleDateString("en-US", {
+                                            year: "numeric",
+                                            month: "long",
+                                            day: "numeric",
+                                        })}
+                                    </time>
+                                    {post.source && (
+                                        <>
+                                            <span>•</span>
+                                            <span className="text-blue-600 dark:text-blue-400">
+                                                {post.source.name}
+                                            </span>
+                                        </>
+                                    )}
+                                </div>
+                            </a>
                             <a 
                                 href={post.source?.url || "#"}
                                 target="_blank"

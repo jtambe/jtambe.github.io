@@ -579,6 +579,19 @@ export default function CivicsQuiz() {
                     </div>
                 </article>
             )}
+
+            {/* Bottom Navigation */}
+            <div className="mt-12 border-t border-gray-300 pt-8 pb-8">
+                <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                    <Link
+                        href="/civics/all-questions"
+                        className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-blue-600 text-white font-semibold hover:bg-blue-700 transition-colors"
+                    >
+                        View All Questions →
+                    </Link>
+                    <p className="text-gray-600">Want to review all 128 questions? Browse them all here.</p>
+                </div>
+            </div>
         </section>
     );
 }
