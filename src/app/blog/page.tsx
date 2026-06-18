@@ -1,31 +1,102 @@
-import Link from "next/link";
+import { getBlogPostsSortedByDate } from "@/data/blog-data";
+import type { Metadata } from "next";
 
-export default function Blog() {
+export const metadata: Metadata = {
+    title: "Blog - Jayesh Tambe | Technical Articles on Software Engineering",
+    description: "Read technical articles on microservices, cloud architecture, .NET Core, gRPC, and software engineering best practices.",
+    keywords: [
+        "Blog",
+        "Technical Articles",
+        "Software Engineering",
+        "Cloud Architecture",
+        "Microservices",
+        ".NET Core",
+        "gRPC",
+        "C#",
+        "Python",
+        "AWS",
+    ],
+    openGraph: {
+        title: "Blog - Jayesh Tambe | Technical Articles",
+        description: "Read technical articles on microservices, cloud architecture, and software engineering.",
+        type: "website",
+        url: "https://jtambe.github.io/blog",
+    },
+};
+
+export default function BlogPage() {
+    const posts = getBlogPostsSortedByDate();
+
     return (
-        <div className="font-sans grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-            <main className="flex flex-col gap-[32px] row-start-2 items-center sm:items-start">
-                <h1 className="text-4xl font-bold">Welcome to My Blog</h1>
-                <p className="text-lg text-center sm:text-left max-w-2xl">
-                    This is where I share my thoughts, tutorials, and updates about web development, programming, and technology. Stay tuned for more content!
-                </p>
-                <div className="flex gap-4 items-center flex-col sm:flex-row">
-                    <Link
-                        className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:w-auto"
-                        href="/posts"
-                    >
-                        View Posts
-                    </Link>
-                    <Link
-                        className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent font-medium text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 w-full sm:w-auto md:w-[158px]"
-                        href="/about"
-                    >
-                        About Me
-                    </Link>
-                </div>
-            </main>
-            <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
-                <p className="text-sm text-center">&copy; 2024 My Blog. All rights reserved.</p>
-            </footer>
-        </div>
+        <main className="mt-24 px-6 py-12 max-w-4xl mx-auto">
+            <h1 className="text-4xl font-bold mb-2 text-gray-800 dark:text-white">Blog</h1>
+            <p className="text-gray-600 dark:text-gray-300 mb-12">
+                Technical articles and insights on software engineering, cloud architecture, and more.
+            </p>
+
+            <div className="space-y-6">
+                {posts.length === 0 ? (
+                    <p className="text-gray-600 dark:text-gray-400">No blog posts yet. Check back soon!</p>
+                ) : (
+                    posts.map((post) => (
+                        <article
+                            key={post.id}
+                            className="border border-gray-200 dark:border-gray-700 rounded-lg p-6 hover:shadow-lg transition-shadow"
+                        >
+                            <a 
+                                href={post.source?.url || "#"}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="block hover:opacity-75 transition"
+                            >
+                                <h2 className="text-2xl font-bold text-gray-800 dark:text-white mb-2">
+                                    {post.title}
+                                </h2>
+                            </a>
+                            <div className="flex items-center gap-4 mb-3 text-sm text-gray-600 dark:text-gray-400">
+                                <time dateTime={post.date.toISOString()}>
+                                    {post.date.toLocaleDateString("en-US", {
+                                        year: "numeric",
+                                        month: "long",
+                                        day: "numeric",
+                                    })}
+                                </time>
+                                {post.source && (
+                                    <>
+                                        <span>•</span>
+                                        <a
+                                            href={post.source.url}
+                                            target="_blank"
+                                            rel="noopener noreferrer"
+                                            className="text-blue-600 dark:text-blue-400 hover:underline"
+                                        >
+                                            {post.source.name}
+                                        </a>
+                                    </>
+                                )}
+                            </div>
+                            <a 
+                                href={post.source?.url || "#"}
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="block hover:opacity-75 transition"
+                            >
+                                <p className="text-gray-700 dark:text-gray-300 mb-4">{post.description}</p>
+                                <div className="flex gap-2 flex-wrap">
+                                    {post.tags.map((tag) => (
+                                        <span
+                                            key={tag}
+                                            className="inline-block px-3 py-1 bg-gray-200 dark:bg-gray-700 text-gray-800 dark:text-gray-200 text-sm rounded-full"
+                                        >
+                                            {tag}
+                                        </span>
+                                    ))}
+                                </div>
+                            </a>
+                        </article>
+                    ))
+                )}
+            </div>
+        </main>
     );
 }
