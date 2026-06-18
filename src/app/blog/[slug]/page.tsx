@@ -2,7 +2,7 @@ import { notFound } from "next/navigation";
 
 export async function generateStaticParams() {
     // No static params needed - all blog posts redirect to Medium via blog list
-    return [];
+    return [{slug: "redirect" }];
 }
 
 export default function BlogPostPage() {
