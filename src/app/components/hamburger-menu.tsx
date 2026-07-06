@@ -74,7 +74,7 @@ export default function HamburgerMenu() {
                             Contact
                         </Link>
                         <a
-                            href="/Jayesh_Tambe_Resume.pdf"
+                            href="/Jay_Tambe_Resume.pdf"
                             target="_blank"
                             rel="noopener noreferrer"
                             className="px-4 py-3 hover:bg-gray-100 dark:hover:bg-gray-700 transition text-gray-800 dark:text-white"
