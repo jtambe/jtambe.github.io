@@ -2,10 +2,11 @@ import type { Metadata } from "next";
 import Link from "next/link";
 
 export const metadata: Metadata = {
-    title: "Contact Jayesh Tambe - Senior Software Engineer",
-    description: "Connect with Jayesh Tambe for collaboration, project opportunities, technical discussions, or consulting. Download resume and find social links.",
+    title: "Contact Jay Tambe - Senior Software Engineer",
+    description: "Connect with Jay Tambe for collaboration, project opportunities, technical discussions, or consulting. Download resume and find social links.",
     keywords: [
         "Contact",
+        "Jay Tambe",
         "Jayesh Tambe",
         "Senior Software Engineer",
         "Hiring",
@@ -14,8 +15,8 @@ export const metadata: Metadata = {
         "GitHub",
     ],
     openGraph: {
-        title: "Contact Jayesh Tambe - Senior Software Engineer",
-        description: "Connect with Jayesh Tambe for collaboration and opportunities.",
+        title: "Contact Jay Tambe - Senior Software Engineer",
+        description: "Connect with Jay Tambe for collaboration and opportunities.",
         type: "website",
         url: "https://jtambe.github.io/contact",
     },
@@ -37,7 +38,7 @@ export default function ContactPage() {
                     Download my resume to learn more about my professional experience and qualifications.
                 </p>
                 <a
-                    href="/Jayesh_Tambe_Resume.pdf"
+                    href="/Jay_Tambe_Resume.pdf"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block px-6 py-3 bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 
@@ -80,12 +81,12 @@ export default function ContactPage() {
                         <div>
                             <h3 className="text-lg font-semibold text-gray-800 dark:text-white mb-1">LinkedIn</h3>
                             <a
-                                href="https://linkedin.com/in/jayeshtambe"
+                                href="https://www.linkedin.com/in/jaytambe"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="text-blue-600 dark:text-blue-400 hover:underline"
                             >
-                                linkedin.com/in/jayeshtambe
+                                linkedin.com/in/jaytambe
                             </a>
                         </div>
                     </div>
@@ -120,12 +121,12 @@ export default function ContactPage() {
                         <div>
                             <h3 className="text-lg font-semibold text-gray-800 dark:text-white mb-1">Medium</h3>
                             <a
-                                href="https://medium.com/@jayeshtambe"
+                                href="https://medium.com/@jaytambe"
                                 target="_blank"
                                 rel="noopener noreferrer"
                                 className="text-blue-600 dark:text-blue-400 hover:underline"
                             >
-                                medium.com/@jayeshtambe
+                                medium.com/@jaytambe
                             </a>
                         </div>
                     </div>

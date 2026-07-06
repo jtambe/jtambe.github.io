@@ -14,9 +14,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Jayesh Tambe - Senior Software Engineer Portfolio",
-  description: "Explore the portfolio of Jayesh Tambe, a Senior Software Engineer with expertise in cloud-native microservices, AI/ML, and scalable systems.",
+  title: "Jay Tambe - Senior Software Engineer Portfolio",
+  description: "Explore the portfolio of Jay Tambe, a Senior Software Engineer with expertise in cloud-native microservices, AI/ML, and scalable systems.",
   keywords: [
+    "Jay Tambe",
     "Jayesh Tambe",
     "Senior Software Engineer",
     "Full Stack Developer",
@@ -45,7 +46,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Jayesh Tambe - Senior Software Engineer Portfolio",
+    title: "Jay Tambe - Senior Software Engineer Portfolio",
     description: "Senior Software Engineer with 15 years of expertise in cloud-native microservices, AI/ML solutions, and scalable systems.",
     url: "https://jtambe.github.io",
     siteName: "Jayesh Tambe Portfolio",

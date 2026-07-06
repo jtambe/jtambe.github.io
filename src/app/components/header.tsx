@@ -19,7 +19,7 @@ export default function Header() {
                 {/* Site Title in Center */}
                 <div className="flex-1 text-center">
                     <Link href="/" className="text-lg font-bold text-gray-800 dark:text-white hover:opacity-75 transition">
-                        Jayesh Tambe
+                        Jay Tambe
                     </Link>
                 </div>
 
