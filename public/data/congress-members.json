@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-06-12T22:42:23.757Z",
-  "mostRecentCongressUpdate": "2026-06-12T07:40:35Z",
+  "lastUpdated": "2026-07-31T20:12:05.979Z",
+  "mostRecentCongressUpdate": "2026-07-31T07:40:25Z",
   "states": {
     "Alabama": {
       "senators": [
@@ -547,11 +547,11 @@
     "Florida": {
       "senators": [
         {
-          "name": "Scott, Rick",
+          "name": "Moody, Ashley",
           "party": "Republican"
         },
         {
-          "name": "Moody, Ashley",
+          "name": "Scott, Rick",
           "party": "Republican"
         }
       ],
@@ -2251,11 +2251,11 @@
     "South Carolina": {
       "senators": [
         {
-          "name": "Scott, Tim",
+          "name": "Graham, Darline",
           "party": "Republican"
         },
         {
-          "name": "Graham, Lindsey",
+          "name": "Scott, Tim",
           "party": "Republican"
         }
       ],
