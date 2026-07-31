@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import Header from "./components/header";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -13,42 +14,49 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Jayesh Tambe - Senior Software Engineer Portfolio",
-  description: "Explore the portfolio of Jayesh Tambe, a Senior Software Engineer with expertise in cloud-native microservices, AI/ML, and scalable systems.",
+  title: "Jay Tambe - Senior Software Engineer Portfolio",
+  description: "Explore the portfolio of Jay Tambe, a Senior Software Engineer with expertise in cloud-native microservices, AI/ML, and scalable systems.",
   keywords: [
+    "Jay Tambe",
     "Jayesh Tambe",
-    "Software Engineer",
+    "Senior Software Engineer",
+    "Full Stack Developer",
     "Python",
+    "C#",
+    ".NET Core",
     "Portfolio",
     "Cloud-native",
     "Microservices",
     "AI/ML",
     "Kubernetes",
     "AWS",
+    "Azure",
     "React",
     "Next.js",
   ],
+  alternates: {
+    canonical: "https://jtambe.github.io",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+    },
+  },
   openGraph: {
-    title: "Jayesh Tambe - Senior Software Engineer Portfolio",
-    description: "Explore the portfolio of Jayesh Tambe, a Senior Software Engineer with expertise in cloud-native microservices, AI/ML, and scalable systems.",
-    url: "https://jtambe.github.io", // Replace with your actual site URL
+    title: "Jay Tambe - Senior Software Engineer Portfolio",
+    description: "Senior Software Engineer with 15 years of expertise in cloud-native microservices, AI/ML solutions, and scalable systems.",
+    url: "https://jtambe.github.io",
     siteName: "Jayesh Tambe Portfolio",
-    // images: [
-    //   {
-    //     url: "https://your-portfolio-site.com/og-image.jpg", // Replace with your Open Graph image URL
-    //     width: 1200,
-    //     height: 630,
-    //     alt: "Jayesh Tambe Portfolio",
-    //   },
-    // ],
     locale: "en_US",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
     title: "Jayesh Tambe - Senior Software Engineer Portfolio",
-    description: "Explore the portfolio of Jayesh Tambe, a Senior Software Engineer with expertise in cloud-native microservices, AI/ML, and scalable systems.",
-    // images: ["https://your-portfolio-site.com/twitter-image.jpg"], // Replace with your Twitter card image URL
+    description: "Senior Software Engineer with 15 years of expertise in cloud-native microservices, AI/ML solutions, and scalable systems.",
   },
 };
 
@@ -62,6 +70,7 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <Header />
         {children}
       </body>
     </html>

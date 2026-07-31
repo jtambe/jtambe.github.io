@@ -4,10 +4,11 @@ import TechnologiesCarousel from "./components/technologies-carousel";
 import ProjectShowcase from "./components/project-showcase";
 
 export const metadata: Metadata = {
-    title: "Jayesh Tambe | Senior Software Engineer",
+    title: "Jay Tambe | Senior Software Engineer - Cloud & AI/ML Specialist",
     description:
-        "Jayesh Tambe — Senior Software Engineer with 15 years of expertise in HealthTech, Banking, Logistics, and Education. Specializing in cloud-native microservices on AWS and Kubernetes.",
+        "Jay Tambe — Senior Software Engineer with 15 years of expertise across HealthTech, Banking, Logistics, and Education. Specializing in cloud-native microservices, AWS, Kubernetes, and AI/ML solutions.",
     keywords: [
+        "Jay Tambe",
         "Jayesh Tambe",
         "Senior Software Engineer",
         "AWS",
@@ -15,12 +16,28 @@ export const metadata: Metadata = {
         "cloud-native",
         "microservices",
         "HealthTech",
+        "AI/ML",
+        "Python",
+        "Flask",
+        "FastAPI",
+        "Django",
+        "Databricks",
+        "Machine Learning",
+        "mlflow",
+        "langchain",
+        "langgraph",
+        "langsmith",
+        "dspy",
+        "arize",
+        "datadog",
+        "Grafana",
     ],
     openGraph: {
-        title: "Jayesh Tambe | Senior Software Engineer",
+        title: "Jay Tambe | Senior Software Engineer",
         description:
-            "Senior Software Engineer with 15 years of expertise in cloud-native microservices on AWS and Kubernetes.",
+            "Senior Software Engineer with 15 years of expertise in cloud-native microservices, AWS, Kubernetes, and AI/ML solutions.",
         type: "website",
+        url: "https://jtambe.github.io",
     },
 };
 
@@ -32,12 +49,12 @@ export default function Home() {
                     {/* Face image */}
                     <img
                         src="/LinkedinProfile.jpg"
-                        alt="Jayesh Tambe"
+                        alt="Jay Tambe"
                         className="w-40 rounded-full object-cover shadow-lg"
                     />
                     {/* Text content */}
                     <div className="flex flex-col gap-4 self-center text-center sm:text-left">
-                        <h1 className="text-4xl font-bold">Jayesh Tambe</h1>
+                        <h1 className="text-4xl font-bold">Jay Tambe</h1>
                     </div>
                 </div>
                 <div className="text-lg text-center sm:text-left max-w-2xl">
@@ -57,7 +74,7 @@ export default function Home() {
             <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
                 {/* LinkedIn Link */}
                 <Link
-                    href="https://www.linkedin.com/in/jayeshtambe/"
+                    href="https://www.linkedin.com/in/jaytambe/"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-2 text-blue-600 hover:text-blue-800"

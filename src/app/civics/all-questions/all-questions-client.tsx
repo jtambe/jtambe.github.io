@@ -2,7 +2,7 @@
 
 import Link from "next/link";
 import { useState, useMemo } from "react";
-import type { CivicsSection, MainSection, SubSection } from "../types";
+import type { MainSection, SubSection } from "../types";
 import { CIVICS_QUESTIONS, SECTION_OPTIONS, SUBSECTION_MAP, US_STATES } from "../../../data/civics-data";
 import { getAnswersForQuestion } from "../utils";
 
@@ -351,6 +351,19 @@ export default function AllQuestionsClient() {
                         </div>
                     );
                 })}
+            </div>
+
+            {/* Bottom Navigation */}
+            <div className="mt-12 border-t border-gray-300 pt-8 pb-8">
+                <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                    <Link
+                        href="/civics"
+                        className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-blue-600 text-white font-semibold hover:bg-blue-700 transition-colors"
+                    >
+                        ← Back to Quiz
+                    </Link>
+                    <p className="text-gray-600">Need practice? Take the interactive quiz.</p>
+                </div>
             </div>
         </section>
     );
