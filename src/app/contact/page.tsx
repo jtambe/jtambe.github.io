@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import { getResumeUrl } from "@/app/config/resume";
 
 export const metadata: Metadata = {
     title: "Contact Jay Tambe - Senior Software Engineer",
@@ -38,7 +39,7 @@ export default function ContactPage() {
                     Download my resume to learn more about my professional experience and qualifications.
                 </p>
                 <a
-                    href="/Jay_Tambe_Resume.pdf"
+                    href={getResumeUrl()}
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-block px-6 py-3 bg-blue-600 hover:bg-blue-700 dark:bg-blue-500 dark:hover:bg-blue-600 
