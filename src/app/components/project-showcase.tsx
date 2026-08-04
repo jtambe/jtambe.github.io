@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import Link from "next/link";
+import MedicalServicesIcon from "@mui/icons-material/MedicalServices";
 
 function useInView(threshold = 0.15) {
     const ref = useRef<HTMLDivElement>(null);
@@ -139,6 +140,44 @@ export default function ProjectShowcase() {
                             >
                                 All Questions ↗
                             </Link>
+                        </div>
+                    </div>
+                </ShowcaseCard>
+
+                {/* Claims Anomaly */}
+                <ShowcaseCard delay={300}>
+                    <div className="rounded-2xl border border-gray-200 bg-white shadow-sm hover:shadow-md transition-shadow duration-300 p-6">
+                        <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 mb-4">
+                            <div className="flex items-center gap-3">
+                                <div className="w-12 h-12 shrink-0 rounded-xl border border-gray-200 bg-gradient-to-br from-cyan-100 to-cyan-50 flex items-center justify-center overflow-hidden">
+                                    <MedicalServicesIcon sx={{ fontSize: 28, color: "#0891b2" }} />
+                                </div>
+                                <div className="min-w-0 flex-1">
+                                    <h3 className="text-xl font-bold text-gray-900">Claims Anomaly</h3>
+                                    <p className="text-sm text-cyan-600 font-medium break-words">Healthcare Claims Analytics</p>
+                                </div>
+                            </div>
+                            <Link
+                                href="https://live-demos-prod.vercel.app/projects/claims-anomaly/rules"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="self-start shrink-0 rounded-full bg-cyan-600 text-white text-sm font-semibold px-4 py-2 hover:bg-cyan-700 transition-colors whitespace-nowrap"
+                            >
+                                View App ↗
+                            </Link>
+                        </div>
+                        <p className="text-gray-600 leading-relaxed mb-4">
+                            Advanced analytics platform that analyzes healthcare claims data to identify anomalies in medical and pharmacy claims. Provides actionable insights for benefits managers and employers to optimize healthcare spending.
+                        </p>
+                        <div className="flex flex-wrap gap-2">
+                            {["Next.js", "Python FastAPI", "Supabase", "PostgreSQL", "Vercel", "Analytics"].map((tag) => (
+                                <span
+                                    key={tag}
+                                    className="rounded-full bg-cyan-50 text-cyan-700 text-xs font-medium px-3 py-1 border border-cyan-100"
+                                >
+                                    {tag}
+                                </span>
+                            ))}
                         </div>
                     </div>
                 </ShowcaseCard>
