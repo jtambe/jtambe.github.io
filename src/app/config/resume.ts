@@ -5,7 +5,7 @@
  * This ensures browsers fetch the latest version instead of using cached files
  */
 
-export const RESUME_VERSION = "1.0.2";
+export const RESUME_VERSION = "1.0.3";
 
 export const getResumeUrl = (): string => {
   return `/Jay_Tambe_Resume.pdf?v=${RESUME_VERSION}`;
