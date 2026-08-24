@@ -181,6 +181,44 @@ export default function ProjectShowcase() {
                         </div>
                     </div>
                 </ShowcaseCard>
+
+                {/* Value Based Care ICD-10 HCC Review */}
+                <ShowcaseCard delay={450}>
+                    <div className="rounded-2xl border border-gray-200 bg-white shadow-sm hover:shadow-md transition-shadow duration-300 p-6">
+                        <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 mb-4">
+                            <div className="flex items-center gap-3">
+                                <div className="w-12 h-12 shrink-0 rounded-xl border border-gray-200 bg-gradient-to-br from-purple-100 to-purple-50 flex items-center justify-center overflow-hidden">
+                                    <MedicalServicesIcon sx={{ fontSize: 28, color: "#9333ea" }} />
+                                </div>
+                                <div className="min-w-0 flex-1">
+                                    <h3 className="text-xl font-bold text-gray-900">VBC RAF score with ICD-10 and HCC</h3>
+                                    <p className="text-sm text-purple-600 font-medium break-words">Medicare Advantage Risk Adjustment</p>
+                                </div>
+                            </div>
+                            <Link
+                                href="https://live-demos-prod.vercel.app/projects/mra-vbc-opps/auth/login"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                className="self-start shrink-0 rounded-full bg-purple-600 text-white text-sm font-semibold px-4 py-2 hover:bg-purple-700 transition-colors whitespace-nowrap"
+                            >
+                                View App ↗
+                            </Link>
+                        </div>
+                        <p className="text-gray-600 leading-relaxed mb-4">
+                            Platform for Medicare Advantage risk adjustment coding workflows. Streamlines Value Based Care operations with CSV data ingestion, patient-centric opportunity review, clinical disposition tracking with audit logs, and provider-scoped RBAC.
+                        </p>
+                        <div className="flex flex-wrap gap-2">
+                            {["Next.js", "React 19", "Python FastAPI", "Supabase", "PostgreSQL", "Vercel", "RBAC", "Audit Trail"].map((tag) => (
+                                <span
+                                    key={tag}
+                                    className="rounded-full bg-purple-50 text-purple-700 text-xs font-medium px-3 py-1 border border-purple-100"
+                                >
+                                    {tag}
+                                </span>
+                            ))}
+                        </div>
+                    </div>
+                </ShowcaseCard>
             </div>
         </section>
     );
