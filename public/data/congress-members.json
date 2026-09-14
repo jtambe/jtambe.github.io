@@ -1,6 +1,6 @@
 {
-  "lastUpdated": "2026-08-24T20:28:18.928Z",
-  "mostRecentCongressUpdate": "2026-08-24T07:40:47Z",
+  "lastUpdated": "2026-09-14T05:30:21.267Z",
+  "mostRecentCongressUpdate": "2026-09-13T07:40:27Z",
   "states": {
     "Alabama": {
       "senators": [
@@ -239,6 +239,11 @@
           "name": "Gray, Adam",
           "party": "Democratic",
           "district": 13
+        },
+        {
+          "name": "Wahab, Aisha",
+          "party": "Democratic",
+          "district": 14
         },
         {
           "name": "Mullin, Kevin",
@@ -764,6 +769,11 @@
           "name": "Allen, Rick W.",
           "party": "Republican",
           "district": 12
+        },
+        {
+          "name": "Blair, Everton",
+          "party": "Democratic",
+          "district": 13
         },
         {
           "name": "Fuller, Clay",
