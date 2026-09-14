@@ -107,6 +107,30 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+## Upgrading Packages
+
+To upgrade all dependencies to their latest versions:
+
+1. **Check for outdated packages**
+   ```bash
+   npm outdated
+   ```
+
+2. **Upgrade all packages to latest versions**
+   ```bash
+   npx npm-check-updates -u
+   ```
+
+3. **Install the updated dependencies**
+   ```bash
+   npm install
+   ```
+
+**Note**: This will update to the absolute latest versions of all packages (including major version upgrades). If you prefer safer updates that respect semantic versioning constraints, use:
+```bash
+npm update
+```
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
