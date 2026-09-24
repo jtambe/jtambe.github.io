@@ -58,7 +58,7 @@ export default function TechnologiesCarousel() {
                 <span className="mt-2 text-sm font-medium">PostgreSQL</span>
             </div>
             {/* DSPy */}
-            <div className="flex flex-col items-center min-w-[100px]">
+            {/* <div className="flex flex-col items-center min-w-[100px]">
                 <Image
                     src="https://dspy.ai/static/img/dspy_logo.png"
                     alt="DSPy"
@@ -67,7 +67,7 @@ export default function TechnologiesCarousel() {
                     className="object-contain mt-4"
                 />
                 <span className="text-sm font-medium pt-6">DSPy</span>
-            </div>
+            </div> */}
             {/* FastAPI */}
             <div className="flex flex-col shrink items-center min-w-[100px]">
                 <Image
