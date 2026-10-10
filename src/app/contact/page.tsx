@@ -3,21 +3,26 @@ import Link from "next/link";
 import { getResumeUrl } from "@/app/config/resume";
 
 export const metadata: Metadata = {
-    title: "Contact Jay Tambe - Senior Software Engineer",
-    description: "Connect with Jay Tambe for collaboration, project opportunities, technical discussions, or consulting. Download resume and find social links.",
+    title: "Contact Jay Tambe - Associate Vice President, Software Engineering",
+    description: "Connect with Jay Tambe for collaboration, leadership opportunities, technical discussions, executive partnerships, or consulting. Download resume and find social links.",
     keywords: [
         "Contact",
         "Jay Tambe",
         "Jayesh Tambe",
+        "Associate Vice President",
+        "AVP Software Engineering",
+        "Engineering Leadership",
         "Senior Software Engineer",
         "Hiring",
         "Collaboration",
+        "Executive",
         "LinkedIn",
         "GitHub",
+        "Technical Leadership",
     ],
     openGraph: {
-        title: "Contact Jay Tambe - Senior Software Engineer",
-        description: "Connect with Jay Tambe for collaboration and opportunities.",
+        title: "Contact Jay Tambe - Associate Vice President, Software Engineering",
+        description: "Connect with Jay Tambe for leadership opportunities, collaboration, and partnerships.",
         type: "website",
         url: "https://jtambe.github.io/contact",
     },

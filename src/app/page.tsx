@@ -4,12 +4,17 @@ import TechnologiesCarousel from "./components/technologies-carousel";
 import ProjectShowcase from "./components/project-showcase";
 
 export const metadata: Metadata = {
-    title: "Jay Tambe | Senior Software Engineer - Cloud & AI/ML Specialist",
+    title: "Jay Tambe | Associate Vice President, Software Engineering - Cloud & AI/ML Leader",
     description:
-        "Jay Tambe — Senior Software Engineer with 15 years of expertise across HealthTech, Banking, Logistics, and Education. Specializing in cloud-native microservices, AWS, Kubernetes, and AI/ML solutions.",
+        "Jay Tambe — Associate Vice President of Software Engineering with 15 years of expertise leading high-performing teams across HealthTech, Banking, Logistics, and Education. Specializing in cloud-native architecture, AWS, Kubernetes, AI/ML solutions, and technical leadership.",
     keywords: [
         "Jay Tambe",
         "Jayesh Tambe",
+        "Associate Vice President",
+        "AVP Software Engineering",
+        "Engineering Leadership",
+        "Technical Leadership",
+        "Cloud Architecture",
         "Senior Software Engineer",
         "AWS",
         "Kubernetes",
@@ -17,6 +22,7 @@ export const metadata: Metadata = {
         "microservices",
         "HealthTech",
         "AI/ML",
+        "Machine Learning Engineering",
         "Python",
         "Flask",
         "FastAPI",
@@ -31,11 +37,14 @@ export const metadata: Metadata = {
         "arize",
         "datadog",
         "Grafana",
+        "team leadership",
+        "technical strategy",
+        "software architecture",
     ],
     openGraph: {
-        title: "Jay Tambe | Senior Software Engineer",
+        title: "Jay Tambe | Associate Vice President, Software Engineering",
         description:
-            "Senior Software Engineer with 15 years of expertise in cloud-native microservices, AWS, Kubernetes, and AI/ML solutions.",
+            "Associate Vice President of Software Engineering with 15 years of leadership experience in cloud-native architecture, microservices, and AI/ML solutions.",
         type: "website",
         url: "https://jtambe.github.io",
     },
@@ -59,10 +68,10 @@ export default function Home() {
                 </div>
                 <div className="text-lg text-center sm:text-left max-w-2xl">
                     <p>
-                        I'm an experienced Senior Software Engineer with 15 years of deep expertise across diverse business domains, including HealthTech, Banking, Logistics, and Education. My focus is on architecting and delivering high-performance, cloud-native microservices on platforms like AWS and Kubernetes.
+                        I'm an Associate Vice President of Software Engineering with 15 years of deep expertise leading engineering teams and architecting high-impact solutions across diverse domains: HealthTech, Banking, Logistics, and Education. My focus is on building world-class engineering organizations, designing scalable cloud-native microservices on AWS and Kubernetes, and driving AI/ML innovation to deliver strategic business value.
                     </p>
                     <p className="mt-4">
-                        I specialize in leading technical initiatives to drive performant code, enhance system scalability, and implement modern AI/ML solutions. I bring a track record of translating complex business requirements into robust, automated, and high-impact software that directly influences organizational performance.
+                        I specialize in technical strategy, team leadership, and organizational excellence—translating complex business requirements into robust, automated, high-impact software systems. I bring a proven track record of scaling engineering teams, mentoring technical talent, and leading transformational initiatives that directly influence organizational growth and competitive advantage.
                     </p>
                 </div>
                 <div className="w-full text-center sm:text-left">

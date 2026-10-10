@@ -14,11 +14,14 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Jay Tambe - Senior Software Engineer Portfolio",
-  description: "Explore the portfolio of Jay Tambe, a Senior Software Engineer with expertise in cloud-native microservices, AI/ML, and scalable systems.",
+  title: "Jay Tambe - Associate Vice President, Software Engineering | Cloud & AI/ML Leader",
+  description: "Explore the portfolio of Jay Tambe, Associate Vice President of Software Engineering with 15 years of expertise in cloud architecture, team leadership, AI/ML innovation, and scalable systems.",
   keywords: [
     "Jay Tambe",
     "Jayesh Tambe",
+    "Associate Vice President",
+    "AVP Software Engineering",
+    "Engineering Leadership",
     "Senior Software Engineer",
     "Full Stack Developer",
     "Python",
@@ -33,6 +36,8 @@ export const metadata: Metadata = {
     "Azure",
     "React",
     "Next.js",
+    "Technical Leadership",
+    "Cloud Architecture",
   ],
   alternates: {
     canonical: "https://jtambe.github.io",
@@ -46,8 +51,8 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Jay Tambe - Senior Software Engineer Portfolio",
-    description: "Senior Software Engineer with 15 years of expertise in cloud-native microservices, AI/ML solutions, and scalable systems.",
+    title: "Jay Tambe - Associate Vice President, Software Engineering",
+    description: "Associate Vice President of Software Engineering with 15 years of leadership experience in cloud architecture, team development, AI/ML innovation, and scalable systems.",
     url: "https://jtambe.github.io",
     siteName: "Jayesh Tambe Portfolio",
     locale: "en_US",
@@ -55,8 +60,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Jayesh Tambe - Senior Software Engineer Portfolio",
-    description: "Senior Software Engineer with 15 years of expertise in cloud-native microservices, AI/ML solutions, and scalable systems.",
+    title: "Jayesh Tambe - AVP Software Engineering",
+    description: "Associate Vice President of Software Engineering with 15 years of leadership experience in cloud-native architecture, AI/ML solutions, and scalable systems.",
   },
 };
 

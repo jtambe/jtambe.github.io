@@ -4,10 +4,10 @@ export const dynamic = "force-static";
 
 export default function manifest(): MetadataRoute.Manifest {
     return {
-        name: "Jay Tambe - Senior Software Engineer Portfolio",
+        name: "Jay Tambe - AVP Software Engineering | Cloud & AI/ML Leader",
         short_name: "Jay Tambe",
         description:
-            "Senior Software Engineer with 15 years of expertise in cloud-native microservices, AI/ML solutions, and scalable systems.",
+            "Associate Vice President of Software Engineering with 15 years of expertise in cloud architecture, team leadership, AI/ML innovation, and scalable systems.",
         start_url: "/",
         scope: "/",
         display: "standalone",
