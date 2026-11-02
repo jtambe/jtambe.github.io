@@ -137,7 +137,7 @@ export default function TechnologiesCarousel() {
             {/* AWS */}
             <div className="flex flex-col shrink items-center min-w-[100px]">
                 <Image
-                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original-wordmark.svg"
+                    src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-original.svg"
                     alt="AWS"
                     width={64} // Specify width in pixels
                     height={64} // Specify height in pixels
